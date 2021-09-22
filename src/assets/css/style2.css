@@ -26,6 +26,12 @@ nav {
   color: white;
 }
 
+.headshot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* .increment-btn {
   display: flex;
   padding-top: 3px;

@@ -7,8 +7,12 @@ const About = () => {
         <div>
           <h2 className='section-title primary-border'>ABOUT ME</h2>
         </div>
-        <div>
-          <img src={headshot} alt='Derek Phelps headshot' />
+        <div className='headshot'>
+          <img
+            src={headshot}
+            style={{ width: '60%', alignItems: 'center' }}
+            alt='Derek Phelps headshot'
+          />
         </div>
         <div>
           <p>
