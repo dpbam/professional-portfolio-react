@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(116, 183, 208);
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.projects {
+  display: flex;
+  margin-bottom: 5px;
+  background-color: lightblue;
+  color: white;
+}
+
+/* .increment-btn {
+  display: flex;
+  padding-top: 3px;
+} */
