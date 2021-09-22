@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './assets/css/style2.css';
-import background from './assets/images/bogomil-mihaylov-ekHSHvgr27k-unsplash.jpeg';
+import background from './assets/images/bogomil-mihaylov-ekHSHvgr27k-unsplash.jpg';
+// import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -10,55 +11,40 @@ import Projects from './components/Projects';
 function App() {
   // const [isRed, setRed] = useState(false);
   // const [count, setCount] = useState(0);
+  const [currentComponent, setCurrentComponent] = useState('About');
 
-  const [projectsArray] = useState([
-    {
-      name: 'Run Buddy',
-      image: '',
-      description: 'this is a description of Run Buddy',
-    },
-    {
-      name: 'Drinking Game',
-      image: '',
-      description: 'this is a description of Drinking Game',
-    },
-    {
-      name: 'Shake On It',
-      image: '',
-      description: 'this is a description of Shake On It',
-    },
-    {
-      name: '4th project',
-      image: '',
-      description: 'this is a description of 4th project',
-    },
-    {
-      name: '5th project',
-      image: '',
-      description: 'this is a description of 5th project',
-    },
-    {
-      name: '6th project',
-      image: '',
-      description: 'this is a description of 6th project',
-    },
-  ]);
-
-  const [currentProject, setCurrentProject] = useState(projectsArray[0]);
+  const renderPage = (currentComponent) => {
+    switch (currentComponent) {
+      case 'Projects':
+        return <Projects />;
+      case 'Contact':
+        return <Contact />;
+      default:
+        return <About />;
+    }
+  };
 
   // const increment = () => {
   //   setCount(count + 1);
   // };
 
   return (
-    <div style={{ backgroundImage: `url(${background})` }}>
-      <Nav></Nav>
-      <About></About>
+    <div
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+    >
+      <Nav
+        currentComponent={currentComponent}
+        setCurrentComponent={setCurrentComponent}
+      ></Nav>
+      {renderPage(currentComponent)}
+      {/* <About></About>
       <Projects
         projects={projectsArray}
         currentProject={currentProject}
       ></Projects>
-      <Contact></Contact>
+      <Contact></Contact> */}
     </div>
   );
 }

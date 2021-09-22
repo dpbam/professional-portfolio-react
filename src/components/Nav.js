@@ -1,35 +1,35 @@
 import '../assets/css/style2.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Button } from '@material-ui/core';
 // import { Link } from 'react-router-dom';
 
-function Nav() {
-  const navStyle = {
-    color: 'white',
-  };
+function Nav(props) {
+  const tabs = ['About', 'Projects', 'Contact'];
 
   return (
     <nav>
       <h1>DEREK PHELPS PORTFOLIO</h1>
-      {/* <ul className='nav-links'>
-        <Link style={navStyle} to='/about'> */}
-      <Button variant='text' color='inherit'>
-        {/* need href to tell the button where to go */}
+      {tabs.map((tab) => (
+        <Button
+          variant='text'
+          color='inherit'
+          onClick={() => props.setCurrentComponent(tab)}
+        >
+          {tab}
+        </Button>
+      ))}
+      {/* <Button variant='text' color='inherit'>
+        
         About
       </Button>
-      {/* </Link> */}
-      {/* <Link style={navStyle} to='/projects'> */}
+
       <Button variant='text' color='inherit'>
         Projects
       </Button>
 
-      {/* </Link> */}
-      {/* <Link style={navStyle} to='/contact'> */}
       <Button variant='text' color='inherit'>
         Contact
-      </Button>
-      {/* </Link> */}
-      {/* </ul> */}
+      </Button> */}
     </nav>
   );
 }
