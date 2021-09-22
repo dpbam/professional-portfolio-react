@@ -1,5 +1,6 @@
 import '../assets/css/style2.css';
 import { useState } from 'react';
+import { Button } from '@material-ui/core';
 // import { Link } from 'react-router-dom';
 
 function Nav() {
@@ -9,16 +10,24 @@ function Nav() {
 
   return (
     <nav>
-      <h3>Derek Phelps Portfolio</h3>
+      <h1>DEREK PHELPS PORTFOLIO</h1>
       {/* <ul className='nav-links'>
         <Link style={navStyle} to='/about'> */}
-      <li>About</li>
+      <Button variant='text' color='inherit'>
+        {/* need href to tell the button where to go */}
+        About
+      </Button>
       {/* </Link> */}
       {/* <Link style={navStyle} to='/projects'> */}
-      <li>Projects</li>
+      <Button variant='text' color='inherit'>
+        Projects
+      </Button>
+
       {/* </Link> */}
       {/* <Link style={navStyle} to='/contact'> */}
-      <li>Contact</li>
+      <Button variant='text' color='inherit'>
+        Contact
+      </Button>
       {/* </Link> */}
       {/* </ul> */}
     </nav>

@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.body {
+  background-image: 'bogomil-mihaylov-ekHSHvgr27k-unsplash.jpeg';
+  background-size: cover;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
