@@ -2,7 +2,8 @@ import '../assets/css/style2.css';
 import runbuddy from '../assets/images/runbuddy.png';
 import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
-console.log(runbuddy);
+
+import { Link } from 'react-router-dom';
 
 const projectsArray = [
   {
@@ -60,14 +61,16 @@ const Project = (p) => {
   console.log(p.image);
   return (
     <div key={p.name} className='projects'>
-      <h3>{p.name}</h3>
       <img
         src={p.image}
         alt={p.name}
         style={{ width: '50vw', height: '50vh' }}
       ></img>
+      <h3>{p.name}</h3>
       <p>{p.description}</p>
-      <p>{p.link}</p>
+      <li>
+        <Link to={p.link}>{p.name}</Link>
+      </li>
     </div>
   );
 };
