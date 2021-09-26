@@ -23,7 +23,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: rgb(116, 183, 208);
+  /* background: rgb(116, 183, 208); */
   color: white;
 }
 
@@ -38,7 +38,7 @@ nav {
 .projects {
   display: flex;
   margin-bottom: 5px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   color: white;
 }
 
@@ -46,6 +46,28 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.info-and-form {
+  /* color: white; */
+  /* background-color: white; */
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+section #contact-me {
+  background-color: white;
 }
 
 /* .increment-btn {
