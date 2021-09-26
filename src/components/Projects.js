@@ -1,7 +1,8 @@
 import '../assets/css/style2.css';
-import runbuddy from '../assets/images/runbuddy';
+import runbuddy from '../assets/images/runbuddy.png';
 // const drinking = '../assets/images/Random-Drinking-Game-screenshot.png';
 // const shakeonit = '../assets/images/shake-on-it-screenshot.png';
+console.log(runbuddy);
 
 const projectsArray = [
   {
@@ -60,10 +61,7 @@ const Project = (p) => {
   return (
     <div key={p.name} className='projects'>
       <h3>{p.name}</h3>
-      <img
-        src={require('../assets/images/runbuddy').default}
-        alt={p.name}
-      ></img>
+      <img src={p.image} alt={p.name}></img>
       <p>{p.description}</p>
       <p>{p.link}</p>
     </div>
