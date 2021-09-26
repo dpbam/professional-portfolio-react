@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
     <div>
-      <section id='contact-me'>
+      <section id='contact-me' style={{ color: 'white' }}>
         <div>
           <h2 className='section-title secondary-border'>CONTACT ME</h2>
         </div>

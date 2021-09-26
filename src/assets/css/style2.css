@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url('../images/bogomil-mihaylov-ekhshvgr27k-smaller.jpg');
+  background: url('../images/bogomil-mihaylov-ekhshvgr27k-smaller.jpg');
   zoom: 0.75; /* all browsers */
   -moz-transform: scale(0.75); /* Firefox */
   background-blend-mode: multiply;

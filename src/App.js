@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './assets/css/style2.css';
-// import background from './assets/images/bogomil-mihaylov-ekhshvgr27k-smaller.jpg';
+import background from './assets/images/bogomil-mihaylov-ekhshvgr27k-smaller.jpg';
 // import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -30,9 +30,14 @@ function App() {
 
   return (
     <div
-    // style={{
-    //   backgroundImage: `url(${background})`,
-    // }}
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width: '240vw',
+        height: '240vh',
+      }}
     >
       <Nav
         currentComponent={currentComponent}
