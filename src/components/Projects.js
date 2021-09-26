@@ -1,7 +1,7 @@
 import '../assets/css/style2.css';
 import runbuddy from '../assets/images/runbuddy.png';
-// const drinking = '../assets/images/Random-Drinking-Game-screenshot.png';
-// const shakeonit = '../assets/images/shake-on-it-screenshot.png';
+import drinking from '../assets/images/drinking.png';
+import shakeonit from '../assets/images/shakeonit.png';
 console.log(runbuddy);
 
 const projectsArray = [
@@ -14,14 +14,14 @@ const projectsArray = [
   },
   {
     name: 'Drinking Game',
-    // image: drinking,
+    image: drinking,
     description:
       'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
     link: 'https://janekv20.github.io/drink-recipe-game/',
   },
   {
     name: 'Shake On It',
-    // image: shakeonit,
+    image: shakeonit,
     description: 'A bartering website for the 21st century.',
     link: 'https://nameless-taiga-03231.herokuapp.com/',
   },
@@ -61,7 +61,11 @@ const Project = (p) => {
   return (
     <div key={p.name} className='projects'>
       <h3>{p.name}</h3>
-      <img src={p.image} alt={p.name}></img>
+      <img
+        src={p.image}
+        alt={p.name}
+        style={{ width: '50vw', height: '50vh' }}
+      ></img>
       <p>{p.description}</p>
       <p>{p.link}</p>
     </div>
