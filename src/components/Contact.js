@@ -1,10 +1,32 @@
 export const Contact = () => {
   return (
-    <div>
-      <section
-        id='contact-me'
-        style={{ color: 'white', backgroundColor: 'white' }}
-      >
+    <div className='contact-container'>
+      <div className='container'>
+        <div className='row'>
+          <h1 className='contact-me-header'>Contact Me</h1>
+        </div>
+        <div className='row'>
+          <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
+        </div>
+        <div className='row input-container'>
+          <div className='col-xs-12'>
+            <div className='styled-input wide'>
+              <input type='text' required />
+              <label>Name</label>
+            </div>
+          </div>
+          <div className='col-md-6 col-sm-12'>
+            <div className='styled-input'>
+              <input type='text' required />
+              <label>Email</label>
+            </div>
+          </div>
+          <div className='col-xs-12'>
+            <div className='btn-lrg submit-btn'>Send Message</div>
+          </div>
+        </div>
+      </div>
+      {/* <section id='contact-me' style={{ color: 'white', background: 'white' }}>
         <div>
           <h2 className='section-title secondary-border'>CONTACT ME</h2>
         </div>
@@ -34,7 +56,7 @@ export const Contact = () => {
             </button>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

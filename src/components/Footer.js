@@ -1,6 +1,6 @@
 import React from 'react';
 import { Icons } from '@material-ui/icons';
-import { FaGithub, FaReact } from 'react-icons/fa';
+import { FaGithub, FaReact, FaRegCopyright } from 'react-icons/fa';
 import { DiJavascript } from 'react-icons/di';
 
 export const Footer = () => {
@@ -14,6 +14,10 @@ export const Footer = () => {
       </h1>
       <h1>
         <DiJavascript />
+      </h1>
+      <h1>
+        <FaRegCopyright />
+        Derek Phelps
       </h1>
     </div>
   );

@@ -20,9 +20,10 @@ const About = () => {
           />
         </div>
         <div>
-          <p style={{ color: 'white' }}>
-            I'm a 30 yr. professional musician making the transition to web
-            design. But these two things aren't all that different, are they?
+          <p style={{ color: 'white', paddingLeft: '20px' }}>
+            I'm a 30 yr. professional musician and stand-up comedian making the
+            transition to web design. But these things aren't all that
+            different, are they?
           </p>
         </div>
       </section>

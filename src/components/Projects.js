@@ -64,11 +64,14 @@ const Project = (p) => {
   console.log(p.image);
   return (
     <div key={p.name} className='projects'>
+      {/* <div>
+        <h2 style={{ color: 'white' }}>PROJECTS</h2>
+      </div> */}
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
         <img
           src={p.image}
           alt={p.name}
-          style={{ width: '50vw', height: '50vh' }}
+          style={{ width: '50vw', height: '100%' }}
         ></img>
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
