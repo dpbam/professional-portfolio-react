@@ -1,4 +1,4 @@
-// import headshot from '../assets/images/Head-Shot-copy.jpeg';
+import headshot from '../assets/images/Head-Shot-copy.jpeg';
 
 const About = () => {
   return (
@@ -13,11 +13,11 @@ const About = () => {
           </h2>
         </div>
         <div className='headshot'>
-          {/* <img
+          <img
             src={headshot}
             style={{ width: '60%', alignItems: 'center' }}
             alt='Derek Phelps headshot'
-          /> */}
+          />
         </div>
         <div>
           <p style={{ color: 'white' }}>
