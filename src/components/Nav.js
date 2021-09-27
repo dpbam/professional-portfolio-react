@@ -8,7 +8,7 @@ function Nav(props) {
   return (
     <nav>
       <h1 className='header' style={{ fontSize: '50px' }}>
-        DEREK PHELPS PORTFOLIO
+        DEREK PHELPS
       </h1>
       <div className='nav-btn'>
         {tabs.map((tab) => (

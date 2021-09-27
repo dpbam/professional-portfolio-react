@@ -57,7 +57,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 50px;
 }
 
 .info-and-form {
@@ -71,10 +71,14 @@ nav {
   list-style: none;
 }
 
+.section-title {
+  padding-left: 50px;
+}
+
 /* contact form */
 
 .contact-div {
-  padding-top: 85px;
+  padding-top: 70px;
   margin-top: auto;
   border: #444442;
 }
@@ -86,6 +90,14 @@ nav {
   /* color: white; */
   text-align: center;
 }
+
+.input-container {
+  padding-bottom: 100px;
+}
+
+/* .styled-input {
+  padding-bottom: 100px;
+} */
 
 h4 {
   font-family: 'Roboto', sans-serif, 'arial';

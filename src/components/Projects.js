@@ -12,6 +12,7 @@ const projectsArray = [
     image: drinking,
     description:
       'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
+    role: 'CSS and design',
     link: 'https://janekv20.github.io/drink-recipe-game/',
     github: 'https://github.com/dpbam/drink-recipe-game',
   },
@@ -19,6 +20,7 @@ const projectsArray = [
     name: 'Shake On It',
     image: shakeonit,
     description: 'A bartering website for the 21st century.',
+    role: '',
     link: 'https://nameless-taiga-03231.herokuapp.com/',
     github: 'https://github.com/dpbam/shake-on-it',
   },
@@ -91,6 +93,7 @@ const Project = (p) => {
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
         <h3>{p.name}</h3>
         <p>{p.description}</p>
+        <p>Role: {p.role}</p>
         <div>
           <a href={p.link}>Website link</a>
         </div>
