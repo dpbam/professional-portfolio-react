@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         currentProject={currentProject}
       ></Projects>
       <Contact></Contact> */}
+      <Footer />
     </div>
   );
 }
