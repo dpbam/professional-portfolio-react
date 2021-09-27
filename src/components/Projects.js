@@ -79,6 +79,7 @@ const Project = (p) => {
           paddingTop: '100px',
           border: '2px',
           borderColor: 'black',
+          borderStyle: 'solid',
         }}
       >
         <img
