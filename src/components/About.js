@@ -21,8 +21,8 @@ const About = () => {
         </div>
         <div>
           <p style={{ paddingLeft: '20px' }}>
-            I'm a 30 yr. professional musician and stand-up comedian making the
-            transition to web design. But these things aren't all that
+            I'm a web developer coming from the background as professional
+            musician and stand-up comedian. But these things aren't all that
             different, are they?
           </p>
         </div>
