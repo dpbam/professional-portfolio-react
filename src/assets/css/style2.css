@@ -11,9 +11,6 @@
   /* background-size: cover; */
 }
 
-main {
-}
-
 body {
   background-size: cover;
 }
@@ -34,6 +31,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  color: white;
+}
+
+.MuiButton-text {
   color: white;
 }
 
@@ -71,8 +72,9 @@ nav {
 /* contact form */
 
 .contact-container {
-  background-color: #444442;
   padding-top: 85px;
+  margin-top: auto;
+  border: #444442;
 }
 
 .contact-me-header {
@@ -206,10 +208,6 @@ input[type='checkbox']:checked + label {
 }
 
 div.info-and-form {
-  background-color: white;
-}
-
-section #contact-me {
   background-color: white;
 }
 
