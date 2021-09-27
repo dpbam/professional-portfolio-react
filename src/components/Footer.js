@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icons } from '@material-ui/icons';
 import { FaGithub, FaReact, FaRegCopyright } from 'react-icons/fa';
 import { DiJavascript } from 'react-icons/di';
 
