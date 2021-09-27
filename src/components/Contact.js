@@ -21,6 +21,12 @@ export const Contact = () => {
               <label>Email</label>
             </div>
           </div>
+          <div>
+            <div>
+              <input type='text' required />
+              <label>Message</label>
+            </div>
+          </div>
           <div className='col-xs-12'>
             <div className='btn-lrg submit-btn'>Send Message</div>
           </div>

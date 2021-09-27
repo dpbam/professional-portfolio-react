@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         return <Projects />;
       case 'Contact':
         return <Contact />;
+      case 'Resume':
+        return <Resume />;
       default:
         return <About />;
     }
