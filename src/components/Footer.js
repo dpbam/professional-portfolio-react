@@ -1,6 +1,10 @@
 import React from 'react';
-import { FaGithub, FaReact, FaRegCopyright } from 'react-icons/fa';
-import { DiJavascript } from 'react-icons/di';
+import {
+  FaGithub,
+  FaRegCopyright,
+  FaLinkedin,
+  FaTwitter,
+} from 'react-icons/fa';
 
 export const Footer = () => {
   return (
@@ -9,11 +13,12 @@ export const Footer = () => {
         <FaGithub />
       </h1>
       <h1>
-        <FaReact />
+        <FaLinkedin />
       </h1>
       <h1>
-        <DiJavascript />
+        <FaTwitter />
       </h1>
+
       <h1>
         <FaRegCopyright />
         Derek Phelps
