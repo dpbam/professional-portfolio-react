@@ -21,14 +21,14 @@ export const Contact = () => {
               <label>Email</label>
             </div>
           </div>
-          <div class='col-xs-12'>
-            <div class='styled-input wide'>
+          <div className='col-xs-12'>
+            <div className='styled-input wide'>
               <textarea required></textarea>
               <label>Message</label>
             </div>
           </div>
-          <div class='col-xs-12'>
-            <div class='btn-lrg submit-btn'>Send Message</div>
+          <div className='col-xs-12'>
+            <div className='btn-lrg submit-btn'>Send Message</div>
           </div>
         </div>
       </div>
