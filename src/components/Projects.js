@@ -73,7 +73,14 @@ const Project = (p) => {
       {/* <div>
         <h2 style={{ color: 'white' }}>PROJECTS</h2>
       </div> */}
-      <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
+      <div
+        style={{
+          paddingLeft: '20px',
+          paddingTop: '100px',
+          border: '2px',
+          borderColor: 'black',
+        }}
+      >
         <img
           src={p.image}
           alt={p.name}

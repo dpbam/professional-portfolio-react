@@ -1,5 +1,5 @@
 * {
-  background-color: black;
+  /* background-color: rgb(198, 195, 164); */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* margin: 0 auto;
 
@@ -12,7 +12,7 @@
 }
 
 body {
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 nav {
@@ -42,7 +42,7 @@ nav {
   display: flex;
   margin-bottom: 5px;
   /* background-color: lightblue; */
-  color: white;
+  /* color: white; */
 }
 
 .headshot {
@@ -81,7 +81,7 @@ nav {
   font-family: 'Poppins', sans-serif, 'arial';
   font-weight: 600;
   font-size: 45px;
-  color: white;
+  /* color: white; */
   text-align: center;
 }
 

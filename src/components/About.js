@@ -7,7 +7,7 @@ const About = () => {
         <div>
           <h2
             className='section-title primary-border'
-            style={{ color: 'white' }}
+            // style={{ color: 'white' }}
           >
             ABOUT ME
           </h2>
@@ -20,7 +20,7 @@ const About = () => {
           />
         </div>
         <div>
-          <p style={{ color: 'white', paddingLeft: '20px' }}>
+          <p style={{ paddingLeft: '20px' }}>
             I'm a 30 yr. professional musician and stand-up comedian making the
             transition to web design. But these things aren't all that
             different, are they?
