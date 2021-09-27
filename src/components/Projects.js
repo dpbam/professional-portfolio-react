@@ -81,7 +81,11 @@ const Project = (p) => {
           className='project-img'
           src={p.image}
           alt={p.name}
-          style={{ width: '50vw', height: '100%', objectFit: 'cover' }}
+          style={{
+            width: '50vw',
+            height: '100%',
+            objectFit: 'cover',
+          }}
         ></img>
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>

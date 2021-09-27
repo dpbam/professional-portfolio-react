@@ -10,16 +10,18 @@ function Nav(props) {
       <h1 className='header' style={{ fontSize: '50px' }}>
         DEREK PHELPS PORTFOLIO
       </h1>
-      {tabs.map((tab) => (
-        <Button
-          variant='text'
-          color='inherit'
-          style={{ color: 'white' }}
-          onClick={() => props.setCurrentComponent(tab)}
-        >
-          {tab}
-        </Button>
-      ))}
+      <div className='nav-btn'>
+        {tabs.map((tab) => (
+          <Button
+            variant='text'
+            color='inherit'
+            // className='nav-btn'
+            onClick={() => props.setCurrentComponent(tab)}
+          >
+            {tab}
+          </Button>
+        ))}
+      </div>
     </nav>
   );
 }
