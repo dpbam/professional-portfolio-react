@@ -8,14 +8,6 @@ import notetaker from '../assets/images/notetaker.png';
 
 const projectsArray = [
   {
-    name: 'Run Buddy',
-    image: runbuddy,
-    description:
-      'My first website, built from the ground up using HTML and CSS. This is the placeholder text for my second project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!',
-    link: 'https://dpbam.github.io/run-buddy/',
-    github: 'https://github.com/dpbam/run-buddy',
-  },
-  {
     name: 'Drinking Game',
     image: drinking,
     description:
@@ -31,6 +23,14 @@ const projectsArray = [
     github: 'https://github.com/dpbam/shake-on-it',
   },
   {
+    name: 'Budget Tracker 2000',
+    image: budget,
+    description:
+      'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
+    link: 'https://evening-springs-33870.herokuapp.com/',
+    github: 'https://github.com/dpbam/budget_tracker-2000',
+  },
+  {
     name: 'Whether or Not Weather App',
     image: weather,
     description: 'this is a description of 4th project',
@@ -38,12 +38,12 @@ const projectsArray = [
     github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
   {
-    name: 'Budget Tracker 2000',
-    image: budget,
+    name: 'Run Buddy',
+    image: runbuddy,
     description:
-      'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
-    link: 'https://evening-springs-33870.herokuapp.com/',
-    github: 'https://github.com/dpbam/budget_tracker-2000',
+      'My first website, built from the ground up using HTML and CSS. This is the placeholder text for my second project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!',
+    link: 'https://dpbam.github.io/run-buddy/',
+    github: 'https://github.com/dpbam/run-buddy',
   },
   {
     name: 'Note Taker 2000',
@@ -56,8 +56,6 @@ const projectsArray = [
 ];
 
 const Projects = (props) => {
-  // console.log(props);
-
   const projectComponents = [];
 
   for (let i = 0; i < projectsArray.length; i++) {
@@ -70,22 +68,20 @@ const Project = (p) => {
   console.log(p.image);
   return (
     <div key={p.name} className='projects'>
-      {/* <div>
-        <h2 style={{ color: 'white' }}>PROJECTS</h2>
-      </div> */}
+      <div style={{ padding: '40px' }}></div>
       <div
         style={{
-          paddingLeft: '20px',
-          paddingTop: '100px',
+          padding: '20px',
           border: '2px',
-          borderColor: 'black',
+          borderColor: '#444442',
           borderStyle: 'solid',
         }}
       >
         <img
+          className='project-img'
           src={p.image}
           alt={p.name}
-          style={{ width: '50vw', height: '100%' }}
+          style={{ width: '50vw', height: '100%', objectFit: 'cover' }}
         ></img>
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>

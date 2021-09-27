@@ -10,8 +10,6 @@ import Footer from './components/Footer';
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
-  // const [isRed, setRed] = useState(false);
-  // const [count, setCount] = useState(0);
   const [currentComponent, setCurrentComponent] = useState('About');
 
   const renderPage = (currentComponent) => {
@@ -25,41 +23,16 @@ function App() {
     }
   };
 
-  // const increment = () => {
-  //   setCount(count + 1);
-  // };
-
   return (
-    <div
-      style={{
-        // backgroundImage: `url(${background})`,
-        backgroundPosition: 'center',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        // width: '240vw',
-        // height: '240vh',
-      }}
-    >
+    <div>
       <Nav
         currentComponent={currentComponent}
         setCurrentComponent={setCurrentComponent}
       ></Nav>
       {renderPage(currentComponent)}
-      {/* <About></About>
-      <Projects
-        projects={projectsArray}
-        currentProject={currentProject}
-      ></Projects>
-      <Contact></Contact> */}
       <Footer />
     </div>
   );
 }
-
-// const Home = () => {
-//   <div>
-//     <h1>Home Page</h1>
-//   </div>;
-// };
 
 export default App;

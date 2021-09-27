@@ -13,7 +13,7 @@ function Nav(props) {
       {tabs.map((tab) => (
         <Button
           variant='text'
-          // color='inherit'
+          color='inherit'
           style={{ color: 'white' }}
           onClick={() => props.setCurrentComponent(tab)}
         >
