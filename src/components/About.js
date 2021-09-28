@@ -15,13 +15,13 @@ const About = () => {
         <div className='headshot'>
           <img
             src={headshot}
-            style={{ width: '60%', alignItems: 'center' }}
+            style={{ width: '95%', alignItems: 'center' }}
             alt='Derek Phelps headshot'
           />
         </div>
         <div>
           <p style={{ paddingLeft: '20px' }}>
-            I'm a web developer coming from the background as professional
+            I'm a web developer coming from the background of a professional
             musician and stand-up comedian. But these things aren't all that
             different, are they? Being a musician and comedian means developing
             a relationship with the audience and making my taste in music and

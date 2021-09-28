@@ -32,7 +32,7 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <div className='contact-page-bottom' style={{ padding: '100px' }}></div>
+      {/* <div className='contact-page-bottom' style={{ padding: '100px' }}></div> */}
     </div>
   );
 };

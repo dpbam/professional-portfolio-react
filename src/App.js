@@ -27,12 +27,13 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='flex-wrapper'>
       <Nav
         currentComponent={currentComponent}
         setCurrentComponent={setCurrentComponent}
       ></Nav>
       {renderPage(currentComponent)}
+
       <Footer />
     </div>
   );
