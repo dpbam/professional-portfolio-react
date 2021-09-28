@@ -99,10 +99,10 @@ const Project = (p) => {
         <h3>{p.name}</h3>
         <p>{p.description}</p>
         <p>Role and Responsibilities: {p.role}</p>
-        <div>
+        <div className='website-link'>
           <a href={p.link}>Website link</a>
         </div>
-        <div>
+        <div className='github-link'>
           <a href={p.github}>Github link</a>
         </div>
       </div>

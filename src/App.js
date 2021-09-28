@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './assets/css/style2.css';
-// import background from './assets/images/bogomil-mihaylov-ekhshvgr27k-smaller.jpg';
+import background from './assets/images/lazarescu-alexandra-QKXHNLNgdAw-unsplash.jpg';
 // import Header from './components/Header';
 import Nav from './components/Nav';
 import About from './components/About';
@@ -27,7 +27,12 @@ function App() {
   };
 
   return (
-    <div className='flex-wrapper'>
+    <div
+      className='flex-wrapper'
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
+    >
       <Nav
         currentComponent={currentComponent}
         setCurrentComponent={setCurrentComponent}
