@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <section id='about-me' className='intro'>
-        <div>
+        <div className='about-me-title'>
           <h2
             className='section-title primary-border'
             // style={{ color: 'white' }}
@@ -19,7 +19,7 @@ const About = () => {
             alt='Derek Phelps headshot'
           />
         </div>
-        <div>
+        <div className='about-paragraph'>
           <p style={{ paddingLeft: '20px' }}>
             I'm a web developer coming from the background of a professional
             musician and stand-up comedian. But these things aren't all that

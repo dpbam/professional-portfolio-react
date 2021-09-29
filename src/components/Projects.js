@@ -96,12 +96,13 @@ const Project = (p) => {
         ></img>
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
-        <h3>{p.name}</h3>
+        <div className='website-link'>
+          <a href={p.link}>
+            <h3>{p.name}</h3>
+          </a>
+        </div>
         <p>{p.description}</p>
         <p>Role and Responsibilities: {p.role}</p>
-        <div className='website-link'>
-          <a href={p.link}>Website link</a>
-        </div>
         <div className='github-link'>
           <a href={p.github}>Github link</a>
         </div>

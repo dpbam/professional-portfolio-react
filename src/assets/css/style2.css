@@ -14,7 +14,9 @@
 
 body {
   /* background-size: cover; */
-  background-color: rgb(198, 195, 164);
+  /* background-color: rgb(42, 210, 240); */
+  background-color: black;
+  margin: 0;
 }
 
 nav {
@@ -50,7 +52,7 @@ Button:hover {
   margin-bottom: 5px;
 }
 
-.website-link a:hover {
+.website-link h3:hover {
   color: aqua;
 }
 
@@ -167,7 +169,7 @@ textarea {
   width: 100%;
   font-size: 1rem;
   background-color: white;
-  color: white;
+  color: black;
   border-radius: 4px;
 }
 
@@ -247,6 +249,10 @@ div.info-and-form {
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.footer:hover {
+  color: aqua;
 }
 
 .flex-wrapper {

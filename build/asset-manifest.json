@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/professional-portfolio-react/static/css/main.a280ddce.chunk.css",
-    "main.js": "/professional-portfolio-react/static/js/main.c6592b03.chunk.js",
-    "main.js.map": "/professional-portfolio-react/static/js/main.c6592b03.chunk.js.map",
+    "main.css": "/professional-portfolio-react/static/css/main.764352d1.chunk.css",
+    "main.js": "/professional-portfolio-react/static/js/main.31d5b77d.chunk.js",
+    "main.js.map": "/professional-portfolio-react/static/js/main.31d5b77d.chunk.js.map",
     "runtime-main.js": "/professional-portfolio-react/static/js/runtime-main.0bb1e9b1.js",
     "runtime-main.js.map": "/professional-portfolio-react/static/js/runtime-main.0bb1e9b1.js.map",
     "static/js/2.62d2c8fa.chunk.js": "/professional-portfolio-react/static/js/2.62d2c8fa.chunk.js",
@@ -10,11 +10,12 @@
     "static/js/3.8e373d73.chunk.js": "/professional-portfolio-react/static/js/3.8e373d73.chunk.js",
     "static/js/3.8e373d73.chunk.js.map": "/professional-portfolio-react/static/js/3.8e373d73.chunk.js.map",
     "index.html": "/professional-portfolio-react/index.html",
-    "static/css/main.a280ddce.chunk.css.map": "/professional-portfolio-react/static/css/main.a280ddce.chunk.css.map",
+    "static/css/main.764352d1.chunk.css.map": "/professional-portfolio-react/static/css/main.764352d1.chunk.css.map",
     "static/js/2.62d2c8fa.chunk.js.LICENSE.txt": "/professional-portfolio-react/static/js/2.62d2c8fa.chunk.js.LICENSE.txt",
     "static/media/Head-Shot-copy.676c166a.jpeg": "/professional-portfolio-react/static/media/Head-Shot-copy.676c166a.jpeg",
     "static/media/budget.c0ef4b3a.png": "/professional-portfolio-react/static/media/budget.c0ef4b3a.png",
     "static/media/drinking.6b250390.png": "/professional-portfolio-react/static/media/drinking.6b250390.png",
+    "static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg": "/professional-portfolio-react/static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg",
     "static/media/notetaker.2090a0b7.png": "/professional-portfolio-react/static/media/notetaker.2090a0b7.png",
     "static/media/runbuddy.3b8794f8.png": "/professional-portfolio-react/static/media/runbuddy.3b8794f8.png",
     "static/media/shakeonit.e2ea025c.png": "/professional-portfolio-react/static/media/shakeonit.e2ea025c.png",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.0bb1e9b1.js",
     "static/js/2.62d2c8fa.chunk.js",
-    "static/css/main.a280ddce.chunk.css",
-    "static/js/main.c6592b03.chunk.js"
+    "static/css/main.764352d1.chunk.css",
+    "static/js/main.31d5b77d.chunk.js"
   ]
 }
