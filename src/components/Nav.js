@@ -10,12 +10,12 @@ function Nav(props) {
       <h1 className='header' style={{ fontSize: '50px' }}>
         DEREK PHELPS
       </h1>
-      <div>
+      <div className='nav-btn'>
         {tabs.map((tab) => (
           <Button
             variant='text'
             color='inherit'
-            className='nav-btn'
+            // className='nav-btn'
             onClick={() => props.setCurrentComponent(tab)}
           >
             {tab}

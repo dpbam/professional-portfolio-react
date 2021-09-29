@@ -53,7 +53,7 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
         </div>
-        <div>
+        <div className='email-link'>
           <a href=''>thederekphelps@gmail.com</a>
         </div>
         <div className='row input-container'>

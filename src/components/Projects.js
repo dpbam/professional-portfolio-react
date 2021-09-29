@@ -97,14 +97,16 @@ const Project = (p) => {
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
         <div className='website-link'>
-          <a href={p.link}>
+          <a href={p.link} target='_blank' rel='noreferrer noopener'>
             <h3>{p.name}</h3>
           </a>
         </div>
         <p>{p.description}</p>
         <p>Role and Responsibilities: {p.role}</p>
         <div className='github-link'>
-          <a href={p.github}>Github link</a>
+          <a href={p.github} target='_blank' rel='noreferrer noopener'>
+            Github link
+          </a>
         </div>
       </div>
     </div>

@@ -1,21 +1,11 @@
 * {
-  /* background-color: rgb(198, 195, 164); */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* margin: 0 auto;
-
-  max-width: 90%;
-  padding: 50px 30px; */
-  /* margin: auto; */
   padding: 0;
   box-sizing: border-box;
-  /* background-size: cover; */
   color: white;
 }
 
 body {
-  /* background-size: cover; */
-  /* background-color: rgb(42, 210, 240); */
-  background-color: black;
   margin: 0;
 }
 
@@ -25,9 +15,7 @@ nav {
   align-items: center;
   min-height: 10vh;
   width: 100%;
-  /* background: rgb(116, 183, 208); */
   color: white;
-  /* background-color: #6c6c66; */
 }
 
 .nav-links {
@@ -36,7 +24,6 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  /* color: white; */
 }
 
 Button:hover {
@@ -45,6 +32,10 @@ Button:hover {
 
 .nav-btn {
   white-space: normal;
+}
+
+.MuiButton-label:hover {
+  color: aqua;
 }
 
 .projects {
@@ -93,7 +84,6 @@ Button:hover {
 }
 
 .contact-div {
-  /* padding-top: 70px; */
   padding-bottom: 200px;
   margin-top: auto;
   border: #444442;
@@ -103,13 +93,8 @@ Button:hover {
   font-family: 'Poppins', sans-serif, 'arial';
   font-weight: 600;
   font-size: 45px;
-  /* color: white; */
   text-align: center;
 }
-
-/* .contact-page-bottom {
-  padding: 1000px;
-} */
 
 h4 {
   font-family: 'Roboto', sans-serif, 'arial';
@@ -117,6 +102,10 @@ h4 {
   font-size: 20px;
   color: #9b9b9b;
   line-height: 1.5;
+}
+
+.email-link {
+  text-align: center;
 }
 
 /* ///// inputs /////*/
@@ -244,8 +233,6 @@ div.info-and-form {
   justify-content: space-around;
   margin-top: 2rem;
   padding: 2rem;
-  /* background-color: #6c6c66; */
-  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
@@ -261,8 +248,3 @@ div.info-and-form {
   flex-direction: column;
   justify-content: space-between;
 }
-
-/* .increment-btn {
-  display: flex;
-  padding-top: 3px;
-} */
