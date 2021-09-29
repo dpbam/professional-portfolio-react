@@ -5,12 +5,7 @@ const About = () => {
     <div>
       <section id='about-me' className='intro'>
         <div className='about-me-title'>
-          <h2
-            className='section-title primary-border'
-            // style={{ color: 'white' }}
-          >
-            ABOUT ME
-          </h2>
+          <h2 className='section-title primary-border'>ABOUT ME</h2>
         </div>
         <div className='headshot'>
           <img
@@ -26,7 +21,7 @@ const About = () => {
             different, are they? Being a musician and comedian means developing
             a relationship with the audience and making my taste in music and
             jokes fit with what THEY want. Web development is the same thing,
-            but with computers.
+            but with computers. (Photo credit: Daniel Solano)
           </p>
         </div>
       </section>

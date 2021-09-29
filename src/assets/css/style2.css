@@ -26,10 +26,6 @@ nav {
   list-style: none;
 }
 
-Button:hover {
-  color: rgb(70, 67, 67);
-}
-
 .nav-btn {
   white-space: normal;
 }
@@ -38,16 +34,20 @@ Button:hover {
   color: aqua;
 }
 
+.about-paragraph {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+}
+
 .projects {
   display: flex;
   margin-bottom: 5px;
 }
 
-.website-link h3:hover {
+.website-link h2:hover {
   color: aqua;
 }
 
-.github-link a:hover {
+.github-link h3:hover {
   color: aqua;
 }
 
@@ -106,6 +106,10 @@ h4 {
 
 .email-link {
   text-align: center;
+}
+
+.email-link a:hover {
+  color: aqua;
 }
 
 /* ///// inputs /////*/
@@ -236,9 +240,10 @@ div.info-and-form {
   bottom: 0;
   left: 0;
   width: 100%;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
 }
 
-.footer a:hover {
+.github-icon-link a:hover {
   color: aqua;
 }
 

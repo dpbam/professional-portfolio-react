@@ -46,7 +46,7 @@ const projectsArray = [
     name: 'Run Buddy',
     image: runbuddy,
     description:
-      'My first website, built from the ground up using HTML and CSS. This is the placeholder text for my second project. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!',
+      'My first website, built from the ground up using HTML and CSS. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!',
     role: 'HTML, CSS',
     link: 'https://dpbam.github.io/run-buddy/',
     github: 'https://github.com/dpbam/run-buddy',
@@ -97,15 +97,27 @@ const Project = (p) => {
       </div>
       <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
         <div className='website-link'>
-          <a href={p.link} target='_blank' rel='noreferrer noopener'>
-            <h3>{p.name}</h3>
+          <a
+            href={p.link}
+            target='_blank'
+            rel='noreferrer noopener'
+            style={{ textDecoration: 'none' }}
+          >
+            <h2>{p.name}</h2>
           </a>
         </div>
         <p>{p.description}</p>
         <p>Role and Responsibilities: {p.role}</p>
         <div className='github-link'>
-          <a href={p.github} target='_blank' rel='noreferrer noopener'>
-            Github link
+          <a
+            href={p.github}
+            target='_blank'
+            rel='noreferrer noopener'
+            style={{
+              textDecoration: 'none',
+            }}
+          >
+            <h3>Let's see the code on GitHub</h3>
           </a>
         </div>
       </div>
