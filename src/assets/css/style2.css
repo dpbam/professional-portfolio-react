@@ -238,7 +238,7 @@ div.info-and-form {
   width: 100%;
 }
 
-.footer:hover {
+.footer a:hover {
   color: aqua;
 }
 
