@@ -36,11 +36,25 @@ nav {
 
 .about-paragraph {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  background-color: #00667a;
 }
 
 .projects {
   display: flex;
   margin-bottom: 5px;
+}
+
+.project-text-card {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  background-color: #00667a;
+}
+
+.website-link h2 {
+  padding-bottom: 20px;
 }
 
 .website-link h2:hover {

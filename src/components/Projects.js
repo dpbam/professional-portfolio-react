@@ -95,7 +95,10 @@ const Project = (p) => {
           }}
         ></img>
       </div>
-      <div style={{ paddingLeft: '20px', paddingTop: '100px' }}>
+      <div
+        className='project-text-card'
+        style={{ paddingLeft: '20px', paddingTop: '100px' }}
+      >
         <div className='website-link'>
           <a
             href={p.link}
