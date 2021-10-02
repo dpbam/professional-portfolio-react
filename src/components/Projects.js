@@ -1,5 +1,5 @@
 import '../assets/css/style2.css';
-import runbuddy from '../assets/images/runbuddy.png';
+import shopshop from '../assets/images/shop-shop-screenshot.png';
 import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
 import weather from '../assets/images/weather.png';
@@ -7,32 +7,6 @@ import budget from '../assets/images/budget.png';
 import notetaker from '../assets/images/notetaker.png';
 
 const projectsArray = [
-  {
-    name: 'Drinking Game',
-    image: drinking,
-    description:
-      'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
-    role: 'CSS and design',
-    link: 'https://janekv20.github.io/drink-recipe-game/',
-    github: 'https://github.com/dpbam/drink-recipe-game',
-  },
-  {
-    name: 'Shake On It',
-    image: shakeonit,
-    description: 'A bartering website for the 21st century.',
-    role: 'Team Leader, JavaScript, Node.js',
-    link: 'https://nameless-taiga-03231.herokuapp.com/',
-    github: 'https://github.com/dpbam/shake-on-it',
-  },
-  {
-    name: 'Budget Tracker 2000',
-    image: budget,
-    description:
-      'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
-    role: 'JavaScript, MongoDB',
-    link: 'https://evening-springs-33870.herokuapp.com/',
-    github: 'https://github.com/dpbam/budget_tracker-2000',
-  },
   {
     name: 'Whether or Not Weather App',
     image: weather,
@@ -43,13 +17,39 @@ const projectsArray = [
     github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
   {
-    name: 'Run Buddy',
-    image: runbuddy,
+    name: 'Shop Shop',
+    image: shopshop,
     description:
-      'My first website, built from the ground up using HTML and CSS. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!',
+      'Shop-Shop is a fully functional e-commerce website built with React and Context API.',
     role: 'HTML, CSS',
-    link: 'https://dpbam.github.io/run-buddy/',
-    github: 'https://github.com/dpbam/run-buddy',
+    link: 'https://fast-peak-42136.herokuapp.com/',
+    github: 'https://github.com/dpbam/shop-shop',
+  },
+  {
+    name: 'Shake On It',
+    image: shakeonit,
+    description: 'A bartering website for the 21st century.',
+    role: 'Team Leader, JavaScript, Node.js',
+    link: 'https://nameless-taiga-03231.herokuapp.com/',
+    github: 'https://github.com/dpbam/shake-on-it',
+  },
+  {
+    name: 'Drinking Game',
+    image: drinking,
+    description:
+      'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
+    role: 'CSS and design',
+    link: 'https://janekv20.github.io/drink-recipe-game/',
+    github: 'https://github.com/dpbam/drink-recipe-game',
+  },
+  {
+    name: 'Budget Tracker 2000',
+    image: budget,
+    description:
+      'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
+    role: 'JavaScript, MongoDB',
+    link: 'https://evening-springs-33870.herokuapp.com/',
+    github: 'https://github.com/dpbam/budget_tracker-2000',
   },
   {
     name: 'Note Taker 2000',
