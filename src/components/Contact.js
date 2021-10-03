@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { validateEmail } from '../utils/helpers.js';
+import { send } from 'emailjs-com';
+// init('user_3UCMhdJW4KW3vymVAZiU4');
 
 export const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
@@ -54,7 +56,7 @@ export const Contact = () => {
           <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
         </div>
         <div className='email-link'>
-          <a href=''>thederekphelps@gmail.com</a>
+          <a href='mailto:thederekphelps@gmail.com'>thederekphelps@gmail.com</a>
         </div>
         <div className='row input-container'>
           <div className='col-xs-12'>

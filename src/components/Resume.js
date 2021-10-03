@@ -2,8 +2,10 @@ import React from 'react';
 
 export const Resume = () => {
   return (
-    <div>
-      <h3>Here is where my resume will be.</h3>
+    <div className='resume-link'>
+      <a href='https://docs.google.com/document/d/1BH27QfeoWfPoAIk6aPPAecG3LqL1Tp3unJB9NlP8eZg/edit#'>
+        Let's see the resume.
+      </a>
     </div>
   );
 };
