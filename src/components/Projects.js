@@ -75,13 +75,14 @@ const Project = (p) => {
   console.log(p.image);
   return (
     <div key={p.name} className='projects'>
-      <div style={{ padding: '40px' }}></div>
+      <div></div>
       <div
         style={{
-          padding: '20px',
+          // width: '50vw',
           border: '2px',
           borderColor: '#444442',
           borderStyle: 'solid',
+          padding: '2rem',
         }}
       >
         <img
@@ -91,14 +92,11 @@ const Project = (p) => {
           style={{
             width: '50vw',
             height: '100%',
-            objectFit: 'cover',
+            objectFit: 'scale-down',
           }}
         ></img>
       </div>
-      <div
-        className='project-text-card'
-        style={{ paddingLeft: '20px', paddingTop: '100px' }}
-      >
+      <div className='project-text-card'>
         <div className='website-link'>
           <a
             href={p.link}

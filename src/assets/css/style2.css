@@ -34,9 +34,17 @@ nav {
   color: aqua;
 }
 
+.about-me-title {
+  padding-right: 2rem;
+  z-index: 2;
+  /* position: absolute; */
+}
+
 .about-paragraph {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
   background-color: #00667a;
+  z-index: 1;
+  /* position: absolute; */
 }
 
 .projects {
@@ -49,11 +57,9 @@ nav {
   margin: 50px;
   text-align: center;
   align-items: center;
-  /* padding-top: 50px; */
   background-color: #00667a;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  padding: 2rem;
+  width: 50vw;
 }
 
 .website-link h2 {
@@ -260,9 +266,13 @@ div.info-and-form {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.7);
 }
 
-.github-icon-link a:hover {
-  color: aqua;
+.footer a:hover {
+  background-color: aqua;
 }
+
+/* path:hover {
+  color: aqua;
+} */
 
 .flex-wrapper {
   display: flex;

@@ -4,15 +4,18 @@ const About = () => {
   return (
     <div>
       <section id='about-me' className='intro'>
-        <div className='about-me-title'>
+        {/* <div className='about-me-title'>
           <h2 className='section-title primary-border'>ABOUT ME</h2>
-        </div>
+        </div> */}
         <div className='headshot'>
           <img
             src={headshot}
             style={{ width: '95%', alignItems: 'center' }}
             alt='Derek Phelps headshot'
           />
+        </div>
+        <div className='about-me-title'>
+          <h3 className='section-title primary-border'>ABOUT ME</h3>
         </div>
         <div className='about-paragraph'>
           <p style={{ paddingLeft: '20px' }}>
