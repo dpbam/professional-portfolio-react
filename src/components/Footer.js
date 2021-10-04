@@ -8,8 +8,8 @@ import {
 
 export const Footer = () => {
   return (
-    <div className='footer' style={{ color: 'white' }}>
-      <h1>
+    <div className='footer' style={{ color: 'white', fontSize: '3rem' }}>
+      <div>
         {/* <div className='github-icon-link'> */}
         <a
           href='https://github.com/dpbam'
@@ -19,8 +19,8 @@ export const Footer = () => {
           <FaGithub />
         </a>
         {/* </div> */}
-      </h1>
-      <h1>
+      </div>
+      <div>
         <a
           href='https://www.linkedin.com/in/derek-phelps-76923311/'
           target='_blank'
@@ -28,8 +28,8 @@ export const Footer = () => {
         >
           <FaLinkedin />
         </a>
-      </h1>
-      <h1>
+      </div>
+      <div>
         <a
           href='https://stackoverflow.com/users/15781081/dpbam'
           target='_blank'
@@ -37,11 +37,11 @@ export const Footer = () => {
         >
           <FaStackOverflow />
         </a>
-      </h1>
-      <h1>
+      </div>
+      <div>
         <FaRegCopyright />
         Derek Phelps
-      </h1>
+      </div>
     </div>
   );
 };

@@ -284,9 +284,9 @@ div.info-and-form {
   background-color: aqua;
 }
 
-/* path:hover {
-  color: aqua;
-} */
+.footer-icon {
+  font-size: 3rem;
+}
 
 .flex-wrapper {
   display: flex;
