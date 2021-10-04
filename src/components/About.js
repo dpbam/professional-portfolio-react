@@ -18,13 +18,17 @@ const About = () => {
           <h3 className='section-title primary-border'>ABOUT ME</h3>
         </div>
         <div className='about-paragraph'>
-          <p style={{ paddingLeft: '20px' }}>
-            I'm a web developer coming from the background of a professional
-            musician and stand-up comedian. But these things aren't all that
-            different, are they? Being a musician and comedian means developing
-            a relationship with the audience and making my taste in music and
-            jokes fit with what THEY want. Web development is the same thing,
-            but with computers. (Photo credit: Daniel Solano)
+          <p style={{ paddingLeft: '20px', paddingRight: '20px' }}>
+            I'm a full stack web developer coming from the background of a
+            professional musician and stand-up comedian. But these things aren't
+            all that different. Being a musician and comedian means developing a
+            relationship with the audience and making my taste in music and
+            jokes fit with what THEY want. It also means lots of experience
+            working on teams and with other people in real world settings. As a
+            full-stack web developer I relish in the opportunity to figure out
+            what clients want, and implementing that efficiently, effectively,
+            and with a little bit of humor and music thrown in where possible.
+            (Photo credit: Daniel Solano)
           </p>
         </div>
       </section>
