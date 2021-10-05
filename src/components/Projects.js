@@ -7,13 +7,13 @@ import budget from '../assets/images/budget.png';
 
 const projectsArray = [
   {
-    name: 'Whether or Not Weather App',
-    image: weather,
+    name: 'Drinking Game',
+    image: drinking,
     description:
-      'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
-    role: 'CSS, HTML, JavaScript, Moment.js',
-    link: 'https://dpbam.github.io/whether-or-not-weather-app/',
-    github: 'https://github.com/dpbam/whether-or-not-weather-app',
+      'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
+    role: 'CSS and design',
+    link: 'https://janekv20.github.io/drink-recipe-game/',
+    github: 'https://github.com/dpbam/drink-recipe-game',
   },
   {
     name: 'Shop Shop',
@@ -33,13 +33,13 @@ const projectsArray = [
     github: 'https://github.com/dpbam/shake-on-it',
   },
   {
-    name: 'Drinking Game',
-    image: drinking,
+    name: 'Whether or Not Weather App',
+    image: weather,
     description:
-      'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
-    role: 'CSS and design',
-    link: 'https://janekv20.github.io/drink-recipe-game/',
-    github: 'https://github.com/dpbam/drink-recipe-game',
+      'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
+    role: 'CSS, HTML, JavaScript, Moment.js',
+    link: 'https://dpbam.github.io/whether-or-not-weather-app/',
+    github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
   {
     name: 'Budget Tracker 2000',
