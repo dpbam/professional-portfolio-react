@@ -241,11 +241,11 @@ div.info-and-form {
 .resume-link {
   font-size: 5rem;
   text-align: center;
-  font-style: italic;
 }
 
 .resume-link a {
   text-decoration: none;
+  font-style: italic;
 }
 
 .resume-link a:hover {
