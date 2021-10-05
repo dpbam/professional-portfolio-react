@@ -3,13 +3,17 @@ import headshot from '../assets/images/Head-Shot-copy.jpeg';
 const About = () => {
   return (
     <div>
-      <section id='about-me' className='intro'>
-        <img
-          src={headshot}
-          style={{ width: '100%' }}
-          alt='Derek Phelps headshot'
-        />
-        <p style={{ paddingLeft: '20px', paddingRight: '20px' }}>
+      <section
+        id='about-me'
+        className='intro'
+        style={{
+          backgroundImage: `url(${headshot})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* <img src={headshot} alt='Derek Phelps headshot' /> */}
+        <p style={{ padding: '20px' }}>
           I'm a <strong>full-stack web developer</strong> <br />
           coming from the background <br />
           of a professional musician <br />
