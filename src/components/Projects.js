@@ -75,7 +75,7 @@ const Project = (p) => {
   console.log(p.image);
   return (
     <div key={p.name} className='projects'>
-      <div></div>
+      {/* <div></div> */}
       <div
         style={{
           // width: '50vw',
@@ -83,6 +83,7 @@ const Project = (p) => {
           borderColor: '#444442',
           borderStyle: 'solid',
           padding: '2rem',
+          marginLeft: '3rem',
         }}
       >
         <img
