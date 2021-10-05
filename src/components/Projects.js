@@ -4,7 +4,6 @@ import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
 import weather from '../assets/images/weather.png';
 import budget from '../assets/images/budget.png';
-import notetaker from '../assets/images/notetaker.png';
 
 const projectsArray = [
   {
@@ -51,15 +50,6 @@ const projectsArray = [
     link: 'https://evening-springs-33870.herokuapp.com/',
     github: 'https://github.com/dpbam/budget_tracker-2000',
   },
-  {
-    name: 'Note Taker 2000',
-    image: notetaker,
-    description:
-      'NOTE TAKER 2000 is an application that writes and saves notes. After the user clicks Get Started on the welcome page it takes them to a second page where it welcomes user input for notes consisting of a title and comments and saves it forever, which is a really long time. This app uses JSON, fs, JavaScript, Express, Node.js, HTML, CSS, and API routes.',
-    role: 'JavaScript',
-    link: 'https://obscure-cliffs-88529.herokuapp.com',
-    github: 'https://github.com/dpbam/note-taker-2000',
-  },
 ];
 
 const Projects = (props) => {
@@ -76,26 +66,8 @@ const Project = (p) => {
   return (
     <div key={p.name} className='projects'>
       {/* <div></div> */}
-      <div
-        style={{
-          // width: '50vw',
-          border: '2px',
-          borderColor: '#444442',
-          borderStyle: 'solid',
-          padding: '2rem',
-          marginLeft: '3rem',
-        }}
-      >
-        <img
-          className='project-img'
-          src={p.image}
-          alt={p.name}
-          style={{
-            width: '50vw',
-            height: '100%',
-            objectFit: 'scale-down',
-          }}
-        ></img>
+      <div>
+        <img className='project-img' src={p.image} alt={p.name}></img>
       </div>
       <div className='project-text-card'>
         <div className='website-link'>

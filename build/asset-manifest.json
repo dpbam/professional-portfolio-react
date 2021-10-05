@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/professional-portfolio-react/static/css/main.997b15a4.chunk.css",
+    "main.js": "/professional-portfolio-react/static/js/main.d499a6d4.chunk.js",
+    "main.js.map": "/professional-portfolio-react/static/js/main.d499a6d4.chunk.js.map",
+    "runtime-main.js": "/professional-portfolio-react/static/js/runtime-main.2705f33d.js",
+    "runtime-main.js.map": "/professional-portfolio-react/static/js/runtime-main.2705f33d.js.map",
+    "static/js/2.5b847ab6.chunk.js": "/professional-portfolio-react/static/js/2.5b847ab6.chunk.js",
+    "static/js/2.5b847ab6.chunk.js.map": "/professional-portfolio-react/static/js/2.5b847ab6.chunk.js.map",
+    "static/js/3.6ad2a29b.chunk.js": "/professional-portfolio-react/static/js/3.6ad2a29b.chunk.js",
+    "static/js/3.6ad2a29b.chunk.js.map": "/professional-portfolio-react/static/js/3.6ad2a29b.chunk.js.map",
+    "index.html": "/professional-portfolio-react/index.html",
+    "static/css/main.997b15a4.chunk.css.map": "/professional-portfolio-react/static/css/main.997b15a4.chunk.css.map",
+    "static/js/2.5b847ab6.chunk.js.LICENSE.txt": "/professional-portfolio-react/static/js/2.5b847ab6.chunk.js.LICENSE.txt",
+    "static/media/Head-Shot-copy.676c166a.jpeg": "/professional-portfolio-react/static/media/Head-Shot-copy.676c166a.jpeg",
+    "static/media/budget.c0ef4b3a.png": "/professional-portfolio-react/static/media/budget.c0ef4b3a.png",
+    "static/media/drinking.6b250390.png": "/professional-portfolio-react/static/media/drinking.6b250390.png",
+    "static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg": "/professional-portfolio-react/static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg",
+    "static/media/notetaker.2090a0b7.png": "/professional-portfolio-react/static/media/notetaker.2090a0b7.png",
+    "static/media/shakeonit.e2ea025c.png": "/professional-portfolio-react/static/media/shakeonit.e2ea025c.png",
+    "static/media/shop-shop-screenshot.10e0543b.png": "/professional-portfolio-react/static/media/shop-shop-screenshot.10e0543b.png",
+    "static/media/weather.8b3f5bab.png": "/professional-portfolio-react/static/media/weather.8b3f5bab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2705f33d.js",
+    "static/js/2.5b847ab6.chunk.js",
+    "static/css/main.997b15a4.chunk.css",
+    "static/js/main.d499a6d4.chunk.js"
+  ]
+}
