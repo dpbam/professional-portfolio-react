@@ -48,28 +48,16 @@ nav {
 
 .intro {
   position: relative;
-  /* text-align: center; */
   color: white;
   width: 100%;
+  height: 100%;
 }
 
-.sample-text {
+.intro p {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* .about-me-title {
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  z-index: 2;
-} */
-
-.section-title {
-  /* padding-right: 2rem; */
-  background-color: #f00;
-  margin: 2rem;
+  right: 3rem;
+  bottom: 5rem;
+  text-align: right;
 }
 
 .about-paragraph {

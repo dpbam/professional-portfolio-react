@@ -4,34 +4,43 @@ const About = () => {
   return (
     <div>
       <section id='about-me' className='intro'>
-        {/* <div className='container'> */}
         <img
           src={headshot}
           style={{ width: '100%' }}
           alt='Derek Phelps headshot'
         />
-        <div className='sample text'>Sample Text</div>
-
-        {/* <div className='about-me-title'>
-          <h3 className='section-title primary-border'>ABOUT ME</h3>
-        </div> */}
-        {/* <div className='about-paragraph'> */}
-        {/* <p style={{ paddingLeft: '20px', paddingRight: '20px' }}>
-            I'm a full stack web developer coming from the background of a
-            professional musician and stand-up comedian. But these things aren't
-            all that different. Being a musician and comedian means developing a
-            relationship with the audience and making my taste in music and
-            jokes fit with what THEY want. It also means lots of experience
-            working on teams and with other people in real world settings. As a
-            full-stack web developer I relish in the opportunity to figure out
-            what clients want, and implementing that efficiently, effectively,
-            and with a little bit of humor and music thrown in where possible.
-            (Photo credit: Daniel Solano)
-          </p> */}
-        {/* </div> */}
-        {/* </div> */}
+        <p style={{ paddingLeft: '20px', paddingRight: '20px' }}>
+          I'm a <strong>full-stack web developer</strong> <br />
+          coming from the background <br />
+          of a professional musician <br />
+          and stand-up comedian. <br />
+          But these things aren't <br />
+          all that <br />
+          different. <br />
+          Being a <strong>musician</strong> <br />
+          and <strong>comedian</strong>
+          <br /> means developing a relationship <br />
+          with the <strong>audience</strong> <br />
+          and making my taste
+          <br /> in music <br />
+          and jokes fit <br />
+          with what <strong>THEY</strong> want. <br />
+          It also means lots of experience <br />
+          working on <strong>teams</strong> <br />
+          and with other <strong>people</strong> <br />
+          in real world settings. <br />
+          As a <strong>full-stack web developer</strong> <br />I relish the
+          <strong>opportunities</strong> <br />
+          to figure out <br />
+          what <strong>clients</strong> want, <br />
+          and implementing that <strong>efficiently</strong>, <br />
+          effectively, <br />
+          and with a little bit of <strong>humor</strong>
+          <br /> and <strong>music</strong> <br />
+          thrown in where possible. <br />
+          (Photo credit: Daniel Solano)
+        </p>
       </section>
-      {/* <div className='about-page-bottom' style={{ padding: '70px' }}></div> */}
     </div>
   );
 };
