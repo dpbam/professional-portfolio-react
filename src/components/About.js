@@ -13,7 +13,7 @@ const About = () => {
         }}
       >
         {/* <img src={headshot} alt='Derek Phelps headshot' /> */}
-        <p style={{ padding: '20px' }}>
+        <p className='about-paragraph' style={{ padding: '20px' }}>
           I'm a <strong>full-stack web developer</strong> <br />
           coming from the background <br />
           of a professional musician <br />
