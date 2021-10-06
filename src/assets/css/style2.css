@@ -267,6 +267,7 @@ div.info-and-form {
 
 .copyright {
   text-align: right;
+  font: lighter;
 }
 
 .flex-wrapper {
@@ -277,6 +278,12 @@ div.info-and-form {
 }
 
 /* media queries */
+
+@media (max-width: 576px) {
+  .nav-btn {
+    align-items: flex-end;
+  }
+}
 
 @media (max-width: 576px) {
   .about-paragraph {
