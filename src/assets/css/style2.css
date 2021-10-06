@@ -285,6 +285,12 @@ div.info-and-form {
   }
 }
 
+@media (min-width: 576px) {
+  .about-paragraph-phone {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .about-paragraph {
     display: none;
