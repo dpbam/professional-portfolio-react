@@ -224,6 +224,18 @@ div.info-and-form {
   background-color: white;
 }
 
+.resume-paragraph {
+  background-color: #00667a;
+  font-size: 16px;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.resume-paragraph p {
+  padding: 5rem;
+  text-align: left;
+}
+
 .resume-link {
   font-size: 5rem;
   text-align: center;
@@ -268,6 +280,7 @@ div.info-and-form {
 .copyright {
   text-align: right;
   font: lighter;
+  font-size: 2rem;
 }
 
 .flex-wrapper {

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/professional-portfolio-react/static/css/main.bdaf3339.chunk.css",
-    "main.js": "/professional-portfolio-react/static/js/main.8c964238.chunk.js",
-    "main.js.map": "/professional-portfolio-react/static/js/main.8c964238.chunk.js.map",
+    "main.js": "/professional-portfolio-react/static/js/main.766fd40e.chunk.js",
+    "main.js.map": "/professional-portfolio-react/static/js/main.766fd40e.chunk.js.map",
     "runtime-main.js": "/professional-portfolio-react/static/js/runtime-main.2705f33d.js",
     "runtime-main.js.map": "/professional-portfolio-react/static/js/runtime-main.2705f33d.js.map",
     "static/js/2.bdd5d841.chunk.js": "/professional-portfolio-react/static/js/2.bdd5d841.chunk.js",
@@ -13,6 +13,7 @@
     "static/css/main.bdaf3339.chunk.css.map": "/professional-portfolio-react/static/css/main.bdaf3339.chunk.css.map",
     "static/js/2.bdd5d841.chunk.js.LICENSE.txt": "/professional-portfolio-react/static/js/2.bdd5d841.chunk.js.LICENSE.txt",
     "static/media/Head-Shot-copy.c2ef4e48.jpeg": "/professional-portfolio-react/static/media/Head-Shot-copy.c2ef4e48.jpeg",
+    "static/media/RESUME.69f9f0dc.pdf": "/professional-portfolio-react/static/media/RESUME.69f9f0dc.pdf",
     "static/media/budget.c0ef4b3a.png": "/professional-portfolio-react/static/media/budget.c0ef4b3a.png",
     "static/media/drinking.4c075eec.png": "/professional-portfolio-react/static/media/drinking.4c075eec.png",
     "static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg": "/professional-portfolio-react/static/media/lazarescu-alexandra-QKXHNLNgdAw-unsplash.4a90a115.jpg",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.2705f33d.js",
     "static/js/2.bdd5d841.chunk.js",
     "static/css/main.bdaf3339.chunk.css",
-    "static/js/main.8c964238.chunk.js"
+    "static/js/main.766fd40e.chunk.js"
   ]
 }
