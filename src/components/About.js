@@ -12,7 +12,6 @@ const About = () => {
           backgroundPosition: 'center',
         }}
       >
-        {/* <img src={headshot} alt='Derek Phelps headshot' /> */}
         <p
           className='about-paragraph'
           style={{ padding: '20px', font: 'lighter' }}
@@ -37,7 +36,7 @@ const About = () => {
           and with other <strong>people</strong> <br />
           in real world settings. <br />
           As a <strong>full-stack web developer</strong> <br />I relish the
-          <strong>opportunities</strong> <br />
+          <strong> opportunities</strong> <br />
           to figure out <br />
           what <strong>clients</strong> want, <br />
           and implementing that <strong>efficiently</strong>, <br />
@@ -77,7 +76,7 @@ const About = () => {
           and with other <strong>people</strong> <br />
           in real world settings. <br />
           As a <strong>full-stack web developer</strong> <br />I relish the
-          <strong>opportunities</strong> <br />
+          <strong> opportunities</strong> <br />
           to figure out <br />
           what <strong>clients</strong> want, <br />
           and implementing that <strong>efficiently</strong>, <br />
