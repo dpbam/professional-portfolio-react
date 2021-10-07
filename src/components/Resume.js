@@ -1,14 +1,16 @@
 import React from 'react';
-import resume from '../assets/images/RESUME.pdf';
+import resume from '../assets/images/RESUME-one-page.pdf';
 
 export const Resume = () => {
   return (
     <div className='resume-link'>
-      {/* <embed
-        src={resume}
-        type='application/pdf'
-        style={{ height: '75vh', width: '60vw' }}
-      ></embed> */}
+      <div>
+        <embed
+          src={resume}
+          type='application/pdf'
+          style={{ height: '90vh', width: '35vw' }}
+        ></embed>
+      </div>
       {/* <div className='resume-paragraph'>
         <p>
           <strong>DEREK PHELPS</strong> <br /> thederekphelps@gmail.com |

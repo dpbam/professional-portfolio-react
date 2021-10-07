@@ -299,7 +299,7 @@ div.info-and-form {
 }
 
 @media (min-width: 576px) {
-  .about-paragraph-phone {
+  p.about-paragraph-phone {
     display: none;
   }
 }
@@ -307,6 +307,7 @@ div.info-and-form {
 @media (max-width: 576px) {
   .about-paragraph {
     display: none;
+    padding-right: 10rem;
   }
 }
 
