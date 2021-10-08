@@ -58,7 +58,7 @@ export const Contact = () => {
         <div className='email-link'>
           <a href='mailto:thederekphelps@gmail.com'>thederekphelps@gmail.com</a>
         </div>
-        <div className='row input-container'>
+        {/* <div className='row input-container'>
           <div className='col-xs-12'>
             <div className='styled-input wide'>
               <input
@@ -95,7 +95,7 @@ export const Contact = () => {
           <div className='col-xs-12'>
             <div className='btn-lrg submit-btn'>Send Message</div>
           </div>
-        </div>
+        </div> */}
       </div>
       {/* <div className='contact-page-bottom' style={{ padding: '100px' }}></div> */}
     </div>

@@ -14,7 +14,7 @@ const About = () => {
       >
         <p
           className='about-paragraph'
-          style={{ padding: '20px', font: 'lighter' }}
+          style={{ padding: '30px', font: 'lighter' }}
         >
           I'm a <strong>full-stack web developer</strong> <br />
           coming from the background <br />

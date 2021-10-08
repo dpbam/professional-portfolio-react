@@ -11,7 +11,6 @@ export const Footer = () => {
     <div className='footer' style={{ color: 'white', fontSize: '3rem' }}>
       <div className='footer-icons'>
         <div>
-          {/* <div className='github-icon-link'> */}
           <a
             href='https://github.com/dpbam'
             target='_blank'
@@ -19,7 +18,6 @@ export const Footer = () => {
           >
             <FaGithub />
           </a>
-          {/* </div> */}
         </div>
         <div>
           <a
@@ -41,8 +39,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className='copyright'>
-        <FaRegCopyright />
-        Derek Phelps
+        <FaRegCopyright /> Derek Phelps
       </div>
     </div>
   );
