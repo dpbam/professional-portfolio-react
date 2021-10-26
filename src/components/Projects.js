@@ -4,8 +4,17 @@ import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
 import weather from '../assets/images/weather.png';
 import budget from '../assets/images/budget.png';
+import petPlanit from '../assets/images/pet-planit.png';
 
 const projectsArray = [
+  {
+    name: 'PET PLANiT',
+    image: petPlanit,
+    description: `It's their planet; we just live on it. A social media app for pet owners and their furry friends.`,
+    role: 'CSS, Javascript, React, database management',
+    link: 'https://enigmatic-temple-75821.herokuapp.com/',
+    github: 'https://github.com/dpbam/pet-social-network',
+  },
   {
     name: 'Drinking Game',
     image: drinking,

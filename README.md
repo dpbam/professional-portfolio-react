@@ -13,7 +13,7 @@ This is my professional web development portfolio, built with React. There's a f
 
 ## Usage
 
-- ![Screen Shot 2021-10-03 at 7 57 48 PM](https://user-images.githubusercontent.com/82355287/135782956-9a9627ab-dd74-4ba1-9187-3058b18ade31.png)
+- <img width="1323" alt="Screen Shot 2021-10-26 at 1 52 43 PM" src="https://user-images.githubusercontent.com/82355287/138951238-bb0d5a6f-34e5-4ea7-a0c5-7e6080ce16f5.png">
 
 - https://dpbam.github.io/professional-portfolio-react/
 
