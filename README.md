@@ -7,6 +7,7 @@ This is my professional web development portfolio, built with React. There's a f
 ## Table of Contents
 
 - [Usage](#usage)
+- [Technologies](#technologies)
 - [Contributing](#contributing)
 - [Challenges](#challenges)
 - [Questions](#questions)
@@ -16,6 +17,14 @@ This is my professional web development portfolio, built with React. There's a f
 - <img width="1323" alt="Screen Shot 2021-10-26 at 1 52 43 PM" src="https://user-images.githubusercontent.com/82355287/138951238-bb0d5a6f-34e5-4ea7-a0c5-7e6080ce16f5.png">
 
 - https://dpbam.github.io/professional-portfolio-react/
+
+## Technologies
+
+- HTML
+- CSS
+- Javascript
+- React
+- Material-UI
 
 ## Challenges
 
