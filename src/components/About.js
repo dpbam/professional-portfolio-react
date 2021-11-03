@@ -16,33 +16,33 @@ const About = () => {
           className='about-paragraph'
           style={{ padding: '30px', font: 'lighter' }}
         >
-          I'm a <strong>front-end web developer</strong> <br />
+          I'm a <b>front-end web developer</b> <br />
           coming from the background <br />
           of a professional musician <br />
           and stand-up comedian. <br />
           But these things aren't <br />
           all that <br />
           different. <br />
-          Being a <strong>musician</strong> <br />
-          and <strong>comedian</strong>
+          Being a <b>musician</b> <br />
+          and <b>comedian</b>
           <br /> means developing a relationship <br />
-          with the <strong>audience</strong> <br />
+          with the <b>audience</b> <br />
           and making my taste
           <br /> in music <br />
           and jokes fit <br />
-          with what <strong>THEY</strong> want. <br />
+          with what <b>THEY</b> want. <br />
           It also means lots of experience <br />
-          working on <strong>teams</strong> <br />
-          and with other <strong>people</strong> <br />
+          working on <b>teams</b> <br />
+          and with other <b>people</b> <br />
           in real world settings. <br />
-          As a <strong>front-end web developer</strong> <br />I relish the
-          <strong> opportunities</strong> <br />
+          As a <b>front-end web developer</b> <br />I relish the
+          <b> opportunities</b> <br />
           to figure out <br />
-          what <strong>clients</strong> want, <br />
-          and implementing that <strong>efficiently</strong>, <br />
+          what <b>clients</b> want, <br />
+          and implementing that <b>efficiently</b>, <br />
           effectively, <br />
-          and with a little bit of <strong>humor</strong>
-          <br /> and <strong>music</strong> <br />
+          and with a little bit of <b>humor</b>
+          <br /> and <b>music</b> <br />
           thrown in where possible. <br />
           (Photo credit: Daniel Solano)
         </p>
@@ -57,25 +57,21 @@ const About = () => {
             textAlign: 'center',
           }}
         >
-          I'm a <strong>front-end web developer</strong>
+          I'm a <b>front-end web developer</b>
           coming from the background of a professional musician and stand-up
           comedian. But these things aren't all that different. Being a{' '}
-          <strong>musician</strong>
-          and <strong>comedian</strong>
-          means developing a relationship with the <strong>audience</strong>
-          and making my taste in music and jokes fit with what{' '}
-          <strong>THEY</strong> want. It also means lots of experience working
-          on <strong>teams</strong>
-          and with other <strong>people</strong>
-          in real world settings. As a <strong>
-            front-end web developer
-          </strong>{' '}
-          I relish the
-          <strong> opportunities</strong>
-          to figure out what <strong>clients</strong> want, and implementing
-          that <strong>efficiently</strong>, effectively, and with a little bit
-          of <strong>humor</strong>
-          and <strong>music</strong>
+          <b>musician</b>
+          and <b>comedian</b>
+          means developing a relationship with the <b>audience</b>
+          and making my taste in music and jokes fit with what <b>THEY</b> want.
+          It also means lots of experience working on <b>teams</b>
+          and with other <b>people</b>
+          in real world settings. As a <b>front-end web developer</b> I relish
+          the
+          <b> opportunities</b>
+          to figure out what <b>clients</b> want, and implementing that{' '}
+          <b>efficiently</b>, effectively, and with a little bit of <b>humor</b>
+          and <b>music</b>
           thrown in where possible. (Photo credit: Daniel Solano)
         </p>
       </div>
