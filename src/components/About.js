@@ -16,7 +16,7 @@ const About = () => {
           className='about-paragraph'
           style={{ padding: '30px', font: 'lighter' }}
         >
-          I'm a <strong>full-stack web developer</strong> <br />
+          I'm a <strong>front-end web developer</strong> <br />
           coming from the background <br />
           of a professional musician <br />
           and stand-up comedian. <br />
@@ -35,7 +35,7 @@ const About = () => {
           working on <strong>teams</strong> <br />
           and with other <strong>people</strong> <br />
           in real world settings. <br />
-          As a <strong>full-stack web developer</strong> <br />I relish the
+          As a <strong>front-end web developer</strong> <br />I relish the
           <strong> opportunities</strong> <br />
           to figure out <br />
           what <strong>clients</strong> want, <br />
@@ -57,7 +57,7 @@ const About = () => {
             textAlign: 'center',
           }}
         >
-          I'm a <strong>full-stack web developer</strong>
+          I'm a <strong>front-end web developer</strong>
           coming from the background of a professional musician and stand-up
           comedian. But these things aren't all that different. Being a{' '}
           <strong>musician</strong>
@@ -68,7 +68,7 @@ const About = () => {
           on <strong>teams</strong>
           and with other <strong>people</strong>
           in real world settings. As a <strong>
-            full-stack web developer
+            front-end web developer
           </strong>{' '}
           I relish the
           <strong> opportunities</strong>
