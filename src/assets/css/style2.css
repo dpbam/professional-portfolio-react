@@ -49,6 +49,14 @@ nav {
   color: aqua;
 }
 
+.header-hyperlink {
+  text-decoration: none;
+}
+
+.header:hover {
+  color: aqua;
+}
+
 .intro {
   color: white;
   width: 100%;
