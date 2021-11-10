@@ -27,6 +27,7 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   // const [formState, setFormState] = useState({
@@ -83,12 +84,18 @@ export const Contact = () => {
         </div> */}
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
-          <input type='text' name='user_name' />
+          <input type='text' name='user_name' placeholder='Your name' />
           <label>Email</label>
-          <input type='email' name='user_email' />
+          <input
+            type='email'
+            name='user_email'
+            placeholder='yourname@email.com'
+          />
           <label>Message</label>
           <textarea name='message' />
-          <input type='submit' value='Send' />
+          <div className='col-xs-12'>
+            <input type='submit' value='Send' className='btn-sml submit-btn' />
+          </div>
         </form>
         {/* <div className='row input-container'>
           <div className='col-xs-12'>
