@@ -1,7 +1,7 @@
 import React from 'react';
-import resume from '../assets/images/RESUME-one-page.pdf';
+// import resume from '../assets/images/RESUME-one-page.pdf';
 import { Typography, Container } from '@material-ui/core';
-import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
+// import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 
 export const Resume = () => {
   return (

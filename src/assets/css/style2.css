@@ -171,7 +171,7 @@ textarea:valid ~ label {
   color: #999;
 }
 
-label {
+.contact-email {
   margin-top: 20px;
 }
 
@@ -251,7 +251,7 @@ textarea {
 
 .submit-btn:hover {
   transform: translateY(1px);
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
 }
 
 input[type='checkbox'] + label {

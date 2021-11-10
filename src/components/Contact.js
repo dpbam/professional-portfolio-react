@@ -1,11 +1,11 @@
-import { useState, useRef } from 'react';
-import { validateEmail } from '../utils/helpers.js';
-import emailjs, { init, send } from 'emailjs-com';
+import { useRef } from 'react';
+// import { validateEmail } from '../utils/helpers.js';
+import emailjs, { init } from 'emailjs-com';
 
 init('user_3UCMhdJW4KW3vymVAZiU4');
 
 export const Contact = () => {
-  const [errorMessage, setErrorMessage] = useState('');
+  // const [errorMessage, setErrorMessage] = useState('');
 
   const form = useRef();
 
@@ -79,62 +79,23 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
         </div>
-        {/* <div className='email-link'>
-          <a href='mailto:thederekphelps@gmail.com'>thederekphelps@gmail.com</a>
-        </div> */}
         <form ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input type='text' name='user_name' placeholder='Your name' />
-          <label>Email</label>
+          <label className='contact-email'>Email</label>
           <input
             type='email'
             name='user_email'
             placeholder='yourname@email.com'
           />
           <label>Message</label>
-          <textarea name='message' />
-          <div className='col-xs-12'>
-            <input type='submit' value='Send' className='btn-sml submit-btn' />
-          </div>
+          <textarea
+            name='message'
+            placeholder='Your question or comment goes here.'
+          />
+
+          <input type='submit' className='btn-sml submit-btn' value='Send' />
         </form>
-        {/* <div className='row input-container'>
-          <div className='col-xs-12'>
-            <div className='styled-input wide'>
-              <input
-                type='text'
-                defaultValue={name}
-                onBlur={handleChange}
-                name='name'
-              />
-              <label htmlFor='name'>Name</label>
-            </div>
-          </div>
-          <div className='col-md-6 col-sm-12'>
-            <div className='styled-input'>
-              <input
-                type='email'
-                defaultValue={email}
-                onBlur={handleChange}
-                name='email'
-              />
-              <label htmlFor='email'>Email</label>
-            </div>
-          </div>
-          <div className='col-xs-12'>
-            <div className='styled-input wide'>
-              <textarea
-                name='message'
-                defaultValue={message}
-                onBlur={handleChange}
-                rows='5'
-              ></textarea>
-              <label htmlFor='message'>Message</label>
-            </div>
-          </div>
-          <div className='col-xs-12'>
-            <div className='btn-lrg submit-btn'>Send Message</div>
-          </div>
-        </div> */}
       </div>
     </div>
   );
