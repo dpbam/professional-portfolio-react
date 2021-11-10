@@ -1,50 +1,73 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import { validateEmail } from '../utils/helpers.js';
-import { send } from 'emailjs-com';
-// init('user_3UCMhdJW4KW3vymVAZiU4');
+import emailjs, { init, send } from 'emailjs-com';
+
+init('user_3UCMhdJW4KW3vymVAZiU4');
 
 export const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-  const { name, email, message } = formState;
+  const form = useRef();
 
-  function handleChange(e) {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      console.log(isValid);
-      //   isValid conditional statement
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
-
-    if (errorMessage) {
-      <div>
-        <p className='error-text'>{errorMessage}</p>
-      </div>;
-    }
-  }
-
-  function handleSubmit(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
-    console.log(formState);
-  }
+
+    emailjs
+      .sendForm(
+        'service_b0to90l',
+        'contact_form',
+        form.current,
+        'user_3UCMhdJW4KW3vymVAZiU4'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  // const [formState, setFormState] = useState({
+  //   name: '',
+  //   email: '',
+  //   message: '',
+  // });
+  // const { name, email, message } = formState;
+
+  // function handleChange(e) {
+  //   if (e.target.name === 'email') {
+  //     const isValid = validateEmail(e.target.value);
+  //     console.log(isValid);
+  //     //   isValid conditional statement
+  //     if (!isValid) {
+  //       setErrorMessage('Your email is invalid.');
+  //     } else {
+  //       setErrorMessage('');
+  //     }
+  //   } else {
+  //     if (!e.target.value.length) {
+  //       setErrorMessage(`${e.target.name} is required.`);
+  //     } else {
+  //       setErrorMessage('');
+  //     }
+  //   }
+  //   if (!errorMessage) {
+  //     setFormState({ ...formState, [e.target.name]: e.target.value });
+  //   }
+
+  //   if (errorMessage) {
+  //     <div>
+  //       <p className='error-text'>{errorMessage}</p>
+  //     </div>;
+  //   }
+  // }
+
+  // function handleSubmit(e) {
+  //   e.preventDefault();
+  //   console.log(formState);
+  // }
 
   return (
     <div className='contact-div'>
@@ -55,9 +78,18 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
         </div>
-        <div className='email-link'>
+        {/* <div className='email-link'>
           <a href='mailto:thederekphelps@gmail.com'>thederekphelps@gmail.com</a>
-        </div>
+        </div> */}
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Name</label>
+          <input type='text' name='user_name' />
+          <label>Email</label>
+          <input type='email' name='user_email' />
+          <label>Message</label>
+          <textarea name='message' />
+          <input type='submit' value='Send' />
+        </form>
         {/* <div className='row input-container'>
           <div className='col-xs-12'>
             <div className='styled-input wide'>
@@ -97,7 +129,6 @@ export const Contact = () => {
           </div>
         </div> */}
       </div>
-      {/* <div className='contact-page-bottom' style={{ padding: '100px' }}></div> */}
     </div>
   );
 };
