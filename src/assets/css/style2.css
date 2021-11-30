@@ -345,35 +345,30 @@ div.copyright {
   .header {
     margin-left: 3rem;
   }
-}
-
-@media (max-width: 576px) {
-  .header {
-    font-size: 30px;
-    margin-left: 2rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .nav-btn {
-    align-items: flex-end;
-  }
-}
-
-@media (min-width: 576px) {
   p.about-paragraph-phone {
     display: none;
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
+  .header {
+    font-size: 30px;
+    margin-left: 2rem;
+  }
+  .nav-btn {
+    align-items: flex-end;
+  }
   .about-paragraph {
     display: none;
     padding-right: 10rem;
   }
-}
-
-@media (max-width: 576px) {
+  .project-img {
+    width: 100%;
+  }
+  .project-text-card {
+    width: 100%;
+    margin: 10px;
+  }
   .email-link {
     font-size: 20px;
   }
@@ -385,19 +380,22 @@ div.copyright {
   }
 }
 
-@media (max-width: 768px) {
-  .submit-btn {
-    width: 100%;
-    float: none;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .footer-icons {
     flex-direction: column;
   }
   .footer {
     justify-content: space-evenly;
+  }
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .project-text-card {
+    width: 90%;
   }
 }
