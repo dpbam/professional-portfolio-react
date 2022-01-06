@@ -77,18 +77,14 @@ export const Contact = () => {
           <h1 className='contact-me-header'>Contact Me</h1>
         </div>
         <div className='row'>
-          <h4 style={{ textAlign: 'center' }}>Would love to hear from you.</h4>
+          <h4 style={{ textAlign: 'center' }}>I'd love to hear from you.</h4>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type='text' name='user_name' placeholder='Your name' />
-          <label className='contact-email'>Email</label>
-          <input
-            type='email'
-            name='user_email'
-            placeholder='yourname@email.com'
-          />
-          <label>Message</label>
+          {/* <label>Name</label> */}
+          <input type='text' name='user_name' placeholder='Name' />
+          <label className='contact-email'></label>
+          <input type='email' name='user_email' placeholder='name@email.com' />
+          {/* <label>Message</label> */}
           <textarea
             name='message'
             placeholder='Your question or comment goes here.'
