@@ -83,7 +83,7 @@ export const Contact = () => {
           {/* <label>Name</label> */}
           <input type='text' name='user_name' placeholder='Name' />
           <label className='contact-email'></label>
-          <input type='email' name='user_email' placeholder='name@email.com' />
+          <input type='email' name='user_email' placeholder='Email' />
           {/* <label>Message</label> */}
           <textarea
             name='message'
