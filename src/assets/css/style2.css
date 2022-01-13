@@ -35,9 +35,13 @@ nav {
   white-space: normal;
 }
 
+.MuiButton-label {
+  text-shadow: 2px 4px 4px black;
+}
+
 .MuiButton-label:hover {
   color: aqua;
-  text-shadow: 2px 4px 4px black;
+  text-shadow: none;
 }
 
 .nav-btn a {
@@ -46,11 +50,12 @@ nav {
   top: 2px;
   text-decoration: none;
   font-size: 14.5px;
+  text-shadow: 2px 4px 4px black;
 }
 
 .nav-btn a:hover {
   color: aqua;
-  text-shadow: 2px 4px 4px black;
+  text-shadow: none;
 }
 
 .header-hyperlink {
@@ -59,6 +64,7 @@ nav {
 
 .header:hover {
   color: aqua;
+  text-shadow: none;
 }
 
 .intro {
