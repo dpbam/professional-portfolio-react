@@ -38,7 +38,7 @@ const projectsArray = [
     image: shopshop,
     description:
       'Shopper is a fully functional e-commerce website built with React and Context API.',
-    role: 'HTML, CSS',
+    role: 'HTML, CSS, React, Context API',
     link: 'https://fast-peak-42136.herokuapp.com/',
     github: 'https://github.com/dpbam/shop-shop',
   },
@@ -46,7 +46,7 @@ const projectsArray = [
     name: 'Shake On It',
     image: shakeonit,
     description: 'A bartering website for the 21st century.',
-    role: 'Team Leader, JavaScript, Node.js',
+    role: 'Project Lead, CSS, JavaScript, Node.js',
     link: 'https://nameless-taiga-03231.herokuapp.com/',
     github: 'https://github.com/dpbam/shake-on-it',
   },
