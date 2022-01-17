@@ -34,10 +34,10 @@ const projectsArray = [
     github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
   {
-    name: 'Shop Shop',
+    name: 'Shopper',
     image: shopshop,
     description:
-      'Shop-Shop is a fully functional e-commerce website built with React and Context API.',
+      'Shopper is a fully functional e-commerce website built with React and Context API.',
     role: 'HTML, CSS',
     link: 'https://fast-peak-42136.herokuapp.com/',
     github: 'https://github.com/dpbam/shop-shop',
