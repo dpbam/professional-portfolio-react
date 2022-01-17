@@ -25,6 +25,15 @@ const projectsArray = [
   //   github: 'https://github.com/dpbam/drink-recipe-game',
   // },
   {
+    name: 'Whether or Not Weather App',
+    image: weather,
+    description:
+      'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
+    role: 'CSS, HTML, JavaScript, Moment.js',
+    link: 'https://dpbam.github.io/whether-or-not-weather-app/',
+    github: 'https://github.com/dpbam/whether-or-not-weather-app',
+  },
+  {
     name: 'Shop Shop',
     image: shopshop,
     description:
@@ -40,15 +49,6 @@ const projectsArray = [
     role: 'Team Leader, JavaScript, Node.js',
     link: 'https://nameless-taiga-03231.herokuapp.com/',
     github: 'https://github.com/dpbam/shake-on-it',
-  },
-  {
-    name: 'Whether or Not Weather App',
-    image: weather,
-    description:
-      'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
-    role: 'CSS, HTML, JavaScript, Moment.js',
-    link: 'https://dpbam.github.io/whether-or-not-weather-app/',
-    github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
   {
     name: 'Budget Tracker 2000',
