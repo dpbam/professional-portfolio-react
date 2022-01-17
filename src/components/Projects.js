@@ -15,15 +15,15 @@ const projectsArray = [
     link: 'https://enigmatic-temple-75821.herokuapp.com/',
     github: 'https://github.com/dpbam/pet-social-network',
   },
-  {
-    name: 'Drinking Game',
-    image: drinking,
-    description:
-      'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
-    role: 'CSS and design',
-    link: 'https://janekv20.github.io/drink-recipe-game/',
-    github: 'https://github.com/dpbam/drink-recipe-game',
-  },
+  // {
+  //   name: 'Drinking Game',
+  //   image: drinking,
+  //   description:
+  //     'This application enables users to play a game to randomly receive drink recipes and collect total scores for each drink category they receive. If users want to search for breweries in their city, they can type their city name and receive 5 results of local places and their address.',
+  //   role: 'CSS and design',
+  //   link: 'https://janekv20.github.io/drink-recipe-game/',
+  //   github: 'https://github.com/dpbam/drink-recipe-game',
+  // },
   {
     name: 'Shop Shop',
     image: shopshop,
