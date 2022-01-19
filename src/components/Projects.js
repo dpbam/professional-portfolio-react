@@ -33,15 +33,15 @@ const projectsArray = [
     link: 'https://dpbam.github.io/whether-or-not-weather-app/',
     github: 'https://github.com/dpbam/whether-or-not-weather-app',
   },
-  {
-    name: 'Shopper',
-    image: shopshop,
-    description:
-      'Shopper is a fully functional e-commerce website built with React and Context API.',
-    role: 'HTML, CSS, React, Context API',
-    link: 'https://fast-peak-42136.herokuapp.com/',
-    github: 'https://github.com/dpbam/shop-shop',
-  },
+  // {
+  //   name: 'Shopper',
+  //   image: shopshop,
+  //   description:
+  //     'Shopper is a fully functional e-commerce website built with React and Context API.',
+  //   role: 'HTML, CSS, React, Context API',
+  //   link: 'https://fast-peak-42136.herokuapp.com/',
+  //   github: 'https://github.com/dpbam/shop-shop',
+  // },
   {
     name: 'Shake On It',
     image: shakeonit,
