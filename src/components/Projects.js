@@ -1,6 +1,6 @@
 import '../assets/css/style2.css';
 import shopshop from '../assets/images/shop-shop-screenshot.png';
-import drinking from '../assets/images/drinking.png';
+// import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
 import weather from '../assets/images/weather.png';
 import budget from '../assets/images/budget.png';

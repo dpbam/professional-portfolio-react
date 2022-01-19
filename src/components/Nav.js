@@ -24,7 +24,7 @@ function Nav(props) {
           </Button>
         ))}
         <a
-          href='https://docs.google.com/document/d/15QOVJsyavSI0D1zb2tNnkKySsDkZtjuQt3MVJDSSjO8/edit?usp=sharing'
+          href='https://drive.google.com/drive/u/0/folders/1BqRZwnH6-a5W-OdPQXAonHVBSRrJC0ZZ'
           target='_blank'
           rel='noreferrer noopener'
         >
