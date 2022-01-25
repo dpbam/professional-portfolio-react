@@ -50,7 +50,7 @@ const About = () => {
           style={{
             padding: '20px',
             font: 'lighter',
-            backgroundColor: 'rgb(106 49 31)',
+            backgroundColor: 'rgb(238 135 103)',
             textAlign: 'center',
           }}
         >

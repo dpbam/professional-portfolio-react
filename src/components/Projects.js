@@ -50,15 +50,15 @@ const projectsArray = [
     link: 'https://nameless-taiga-03231.herokuapp.com/',
     github: 'https://github.com/dpbam/shake-on-it',
   },
-  {
-    name: 'Budget Tracker 2000',
-    image: budget,
-    description:
-      'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
-    role: 'JavaScript, MongoDB',
-    link: 'https://evening-springs-33870.herokuapp.com/',
-    github: 'https://github.com/dpbam/budget_tracker-2000',
-  },
+  // {
+  //   name: 'Budget Tracker 2000',
+  //   image: budget,
+  //   description:
+  //     'The Budget Tracker 2000 tracks your budget and gives you access to your information at any time. This app works online and offline.',
+  //   role: 'JavaScript, MongoDB',
+  //   link: 'https://evening-springs-33870.herokuapp.com/',
+  //   github: 'https://github.com/dpbam/budget_tracker-2000',
+  // },
 ];
 
 const Projects = (props) => {
