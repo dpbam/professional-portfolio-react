@@ -62,7 +62,7 @@ const About = () => {
           on <b>teams</b> and with other <b>people</b> in real world settings.
           As a <b>front-end web developer</b> I relish the <b> opportunities</b>{' '}
           to figure out what <b>clients</b> want, and implement that{' '}
-          <b>efficiently</b>, effectively, and with a little bit of <b>humor</b>
+          <b>efficiently</b>, effectively, and with a little bit of <b>humor </b>
           and <b>music</b> thrown in where possible. (Photo credit: Daniel
           Solano)
         </p>
