@@ -2,7 +2,7 @@ import '../assets/css/style2.css';
 import shopshop from '../assets/images/shop-shop-screenshot.png';
 // import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
-import weather from '../assets/images/weather.png';
+import weather from '../assets/images/weather4.png';
 import budget from '../assets/images/budget.png';
 import petPlanit from '../assets/images/pet-planit.png';
 
@@ -25,7 +25,7 @@ const projectsArray = [
   //   github: 'https://github.com/dpbam/drink-recipe-game',
   // },
   {
-    name: 'Whether or Not Weather App',
+    name: 'Weather or Not Weather App',
     image: weather,
     description:
       'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
