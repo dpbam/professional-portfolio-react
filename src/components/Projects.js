@@ -30,8 +30,8 @@ const projectsArray = [
     description:
       'This weather application will provide the current weather as well as the forecast for 5 days in the future.',
     role: 'CSS, HTML, JavaScript, Moment.js',
-    link: 'https://dpbam.github.io/whether-or-not-weather-app/',
-    github: 'https://github.com/dpbam/whether-or-not-weather-app',
+    link: 'https://dpbam.github.io/weather-or-not-weather-app/',
+    github: 'https://github.com/dpbam/weather-or-not-weather-app',
   },
   // {
   //   name: 'Shopper',
