@@ -4,7 +4,7 @@
 
 This is my professional web development portfolio, built with React. There's a functioning navigation bar that exists on every page and 6 featured projects, as well as a contact page.
 
-## Click [here](https://dpbam.github.io/professional-portfolio-react/) for the live app.
+## Click [here](https://www.derekphelpsdev.com) for the live app.
 
 ## Table of Contents
 
