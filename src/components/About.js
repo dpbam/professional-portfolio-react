@@ -50,8 +50,7 @@ const About = () => {
           style={{
             padding: '20px',
             font: 'lighter',
-            backgroundColor: 'rgb(238 135 103)',
-            textAlign: 'center',
+            backgroundColor: 'black',
           }}
         >
           I'm a <b>front-end web developer</b> coming from the background of a
@@ -62,9 +61,9 @@ const About = () => {
           on <b>teams</b> and with other <b>people</b> in real world settings.
           As a <b>front-end web developer</b> I relish the <b> opportunities</b>{' '}
           to figure out what <b>clients</b> want, and implement that{' '}
-          <b>efficiently</b>, effectively, and with a little bit of <b>humor </b>
-          and <b>music</b> thrown in where possible. (Photo credit: Daniel
-          Solano)
+          <b>efficiently</b>, effectively, and with a little bit of{' '}
+          <b>humor </b>
+          and <b>music</b> thrown in where possible.
         </p>
       </div>
     </div>

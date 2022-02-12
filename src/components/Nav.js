@@ -2,7 +2,7 @@ import '../assets/css/style2.css';
 import { Button } from '@material-ui/core';
 
 function Nav(props) {
-  const tabs = ['About', 'Projects', 'Contact'];
+  const tabs = ['Home', 'Projects', 'Contact'];
 
   return (
     <nav>
