@@ -1,10 +1,11 @@
 import '../assets/css/style2.css';
-import shopshop from '../assets/images/shop-shop-screenshot.png';
+// import shopshop from '../assets/images/shop-shop-screenshot.png';
 // import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
 import weather from '../assets/images/weather4.png';
-import budget from '../assets/images/budget.png';
+// import budget from '../assets/images/budget.png';
 import petPlanit from '../assets/images/pet-planit.png';
+import shadowscope from '../assets/images/shadow-scope.png';
 
 const projectsArray = [
   {
@@ -15,6 +16,15 @@ const projectsArray = [
     link: 'https://enigmatic-temple-75821.herokuapp.com/',
     github: 'https://github.com/dpbam/pet-social-network',
   },
+  {
+    name: 'The Shadow Scope',
+    image: shadowscope,
+    description: `The Shadow Scope website is an interactive project built for the Colorado State University Biochemistry & Molecular Biology Department and involves outreach to surrounding schools to connect kids to the magic of the microscopic world.`,
+    role: 'Design, HTML, CSS, Javascript, database management',
+    link: 'https://stasevichlab.colostate.edu/shadow-scope',
+    github: 'https://github.com/dpbam/shadow-scope',
+  },
+
   // {
   //   name: 'Drinking Game',
   //   image: drinking,
