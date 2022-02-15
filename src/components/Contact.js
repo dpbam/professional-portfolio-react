@@ -79,12 +79,9 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>I'd love to hear from you.</h4>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
-          {/* <label>Name</label> */}
-          <input type='text' name='user_name' placeholder='Name' />
-          <label className='contact-email'></label>
-          <input type='email' name='user_email' placeholder='Email' />
-          {/* <label>Message</label> */}
+        <form className="contact-form" ref={form} onSubmit={sendEmail}>
+          <input className="name-input" type='text' name='user_name' placeholder='Name' />
+          <input className="email-input" type='email' name='user_email' placeholder='Email' />
           <textarea
             name='message'
             placeholder='Your question or comment goes here.'

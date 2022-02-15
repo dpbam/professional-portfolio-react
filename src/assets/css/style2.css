@@ -123,7 +123,7 @@ nav {
 .contact-div {
   padding-bottom: 100px;
   background-color: #00667a;
-  width: 70%;
+  width: 90%;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -178,10 +178,6 @@ textarea:valid ~ label {
 ::placeholder {
   font-style: italic;
   color: #999;
-}
-
-.contact-email {
-  margin-top: 20px;
 }
 
 .styled-input {
@@ -417,6 +413,15 @@ div.info-and-form {
   .email-link {
     font-size: 20px;
   }
+  .name-input,
+  .email-input,
+  textarea {
+    width: 94%;
+  }
+
+  .submit-btn {
+    width: 30%;
+  }
 }
 
 @media (max-width: 424px) {
@@ -427,6 +432,9 @@ div.info-and-form {
   .textarea {
     width: 90%;
   }
+  .contact-form {
+    width: 97%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -436,9 +444,16 @@ div.info-and-form {
     width: 90%;
     font-size: 1.25rem;
   }
-
+  .contact-me-header {
+    font-size: 40px;
+  }
+  .name-input,
+  .email-input,
+  textarea {
+    width: 92%;
+  }
   .submit-btn {
-    width: 70%;
-    float: right;
+    width: 40%;
+    margin-right: 1rem;
   }
 }
