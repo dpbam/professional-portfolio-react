@@ -39,9 +39,10 @@ export const Footer = () => {
         </div>
       </div>
       <div className='copyright'>
-      <div class='copyright-icon'>
-
-        <FaRegCopyright /></div> <h4>Derek Phelps</h4>
+        <div className='copyright-icon'>
+          <FaRegCopyright />
+        </div>{' '}
+        <h4>Derek Phelps</h4>
       </div>
     </div>
   );

@@ -1,4 +1,7 @@
+import React from 'react';
+
 import '../assets/css/style2.css';
+import { FaGithub } from 'react-icons/fa';
 // import shopshop from '../assets/images/shop-shop-screenshot.png';
 // import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
@@ -102,15 +105,8 @@ const Project = (p) => {
         <p>{p.description}</p>
         <p>Role and Responsibilities: {p.role}</p>
         <div className='github-link'>
-          <a
-            href={p.github}
-            target='_blank'
-            rel='noreferrer noopener'
-            style={{
-              textDecoration: 'none',
-            }}
-          >
-            <h3>Let's see the code on GitHub</h3>
+          <a href={p.github} target='_blank' rel='noreferrer noopener'>
+            <FaGithub />
           </a>
         </div>
       </div>

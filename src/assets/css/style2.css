@@ -106,7 +106,12 @@ nav {
   color: aqua;
 }
 
-.github-link h3:hover {
+.github-link {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.github-link > a > svg > path:hover {
   color: aqua;
 }
 
@@ -115,10 +120,6 @@ nav {
 }
 
 /* contact form */
-
-.container {
-  /* padding-bottom: 100px; */
-}
 
 .contact-div {
   padding-bottom: 100px;
