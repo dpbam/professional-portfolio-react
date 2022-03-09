@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './assets/css/style2.css';
-// import background from './assets/images/lazarescu-alexandra-QKXHNLNgdAw-unsplash.jpg';
+import background from './assets/images/night-sky.jpg';
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -27,9 +27,9 @@ function App() {
   return (
     <div
       className='flex-wrapper'
-      // style={{
-      //   backgroundImage: `url(${background})`,
-      // }}
+      style={{
+        backgroundImage: `url(${background})`,
+      }}
     >
       <Nav
         currentComponent={currentComponent}

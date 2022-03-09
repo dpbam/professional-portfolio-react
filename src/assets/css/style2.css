@@ -1,6 +1,5 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 0;
+  font-family: Futura, Helvetica, sans-serif;
   box-sizing: border-box;
   color: white;
 }
@@ -22,6 +21,7 @@ nav {
 .header {
   font-size: 5rem;
   text-shadow: 2px 4px 4px black;
+  text-align: center;
 }
 
 .nav-links {
@@ -65,11 +65,15 @@ nav {
 
 .intro {
   color: white;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro p {
-  text-align: right;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 .projects {
@@ -242,7 +246,7 @@ textarea {
 }
 
 .submit-btn {
-  float: right;
+  /* float: right; */
   width: 12rem;
   margin-top: 15px;
   padding: 7px 35px;
@@ -349,7 +353,7 @@ div.info-and-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.7rem;
   padding-left: 0.5rem;
   color: white;
 }
@@ -359,23 +363,22 @@ div.info-and-form {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 /* media queries */
 
 @media (min-width: 576px) {
-  .header {
+  /* .header {
     margin-left: 3rem;
-  }
-  p.about-paragraph-phone {
+  } */
+  /* p.about-paragraph-phone {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
-  .footer-icons {
-    flex-direction: column;
-  }
   .footer {
     justify-content: space-evenly;
   }
@@ -397,15 +400,17 @@ div.info-and-form {
 
 @media (max-width: 576px) {
   .header {
-    font-size: 30px;
-    margin-left: 2rem;
+    font-size: 3rem;
+    /* margin-left: 2rem; */
   }
   .nav-btn {
     align-items: flex-end;
   }
-  .about-paragraph {
-    display: none;
-    padding-right: 10rem;
+  p.about-paragraph {
+    font-size: 1rem;
+  }
+  .footer {
+    justify-content: space-around;
   }
   .project-text-card {
     width: 100%;
@@ -419,13 +424,22 @@ div.info-and-form {
   textarea {
     width: 94%;
   }
-
   .submit-btn {
     width: 30%;
+  }
+  .footer-icons {
+    flex-direction: column;
+    font-size: 2rem;
+  }
+  .footer-icons a {
+    padding: 0;
   }
 }
 
 @media (max-width: 424px) {
+  .footer {
+    justify-content: space-between;
+  }
   .submit-btn {
     /* width: 70%; */
     float: right;
@@ -439,6 +453,12 @@ div.info-and-form {
 }
 
 @media (max-width: 320px) {
+  .MuiButton-label {
+    font-size: 0.75rem;
+  }
+  .nav-btn a {
+    font-size: 0.8rem;
+  }
   .input,
   textarea {
     height: auto;
@@ -456,5 +476,13 @@ div.info-and-form {
   .submit-btn {
     width: 40%;
     margin-right: 1rem;
+  }
+  .copyright svg {
+    height: 1.5rem;
+  }
+  .copyright h4 {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    padding-left: 0.25rem;
   }
 }
