@@ -6,9 +6,6 @@ function Nav(props) {
 
   return (
     <nav>
-      {/* <a href='https://derekphelpsdev.com' className='header-hyperlink'> */}
-      {/* <h1 className='header'>DEREK PHELPS</h1> */}
-      {/* </a> */}
       <div className='nav-btn'>
         {tabs.map((tab) => (
           <Button

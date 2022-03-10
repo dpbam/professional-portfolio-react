@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Container, Row, Col } from 'react-grid-system';
 import '../assets/css/style2.css';
 import { FaGithub } from 'react-icons/fa';
 // import shopshop from '../assets/images/shop-shop-screenshot.png';
@@ -74,44 +74,46 @@ const projectsArray = [
   // },
 ];
 
-const Projects = (props) => {
-  const projectComponents = [];
+// const Projects = (props) => {
+//   const projectComponents = [];
 
-  for (let i = 0; i < projectsArray.length; i++) {
-    projectComponents.push(Project(projectsArray[i]));
-  }
-  return projectComponents;
-};
+//   for (let i = 0; i < projectsArray.length; i++) {
+//     projectComponents.push(Project(projectsArray[i]));
+//   }
+//   return projectComponents;
+// };
 
-const Project = (p) => {
-  console.log(p.image);
+const Project = () => {
   return (
-    <div key={p.name} className='projects'>
-      {/* <div></div> */}
-      <div>
-        <img className='project-img' src={p.image} alt={p.name}></img>
-      </div>
-      <div className='project-text-card'>
-        <div className='website-link'>
-          <a
-            href={p.link}
-            target='_blank'
-            rel='noreferrer noopener'
-            style={{ textDecoration: 'none' }}
-          >
-            <h2>{p.name}</h2>
-          </a>
+    <div className='projects'>
+      {projectsArray.map((p, index) => (
+        <div key={p.name} className='project'>
+          <div className='project-text-card'>
+            <div className='project-img-div'>
+              <img className='project-img' src={p.image} alt={p.name}></img>
+            </div>
+            <div className='website-link'>
+              <a
+                href={p.link}
+                target='_blank'
+                rel='noreferrer noopener'
+                style={{ textDecoration: 'none' }}
+              >
+                <h2>{p.name}</h2>
+              </a>
+            </div>
+            <p>{p.description}</p>
+            <p>Role and Responsibilities: {p.role}</p>
+            <div className='github-link'>
+              <a href={p.github} target='_blank' rel='noreferrer noopener'>
+                <FaGithub />
+              </a>
+            </div>
+          </div>
         </div>
-        <p>{p.description}</p>
-        <p>Role and Responsibilities: {p.role}</p>
-        <div className='github-link'>
-          <a href={p.github} target='_blank' rel='noreferrer noopener'>
-            <FaGithub />
-          </a>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };
 
-export default Projects;
+export default Project;
