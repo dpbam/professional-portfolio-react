@@ -309,6 +309,7 @@ div.info-and-form {
 
 .resume-link a:hover {
   color: aqua;
+  letter-spacing: 0.5rem;
 }
 
 .resume-pages {
