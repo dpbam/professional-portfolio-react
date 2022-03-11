@@ -4,7 +4,7 @@ const About = () => {
       <section id='about-me' className='intro'>
         <h1 className='header'>I am Derek Phelps.</h1>
         <p className='about-paragraph' style={{ padding: '30px' }}>
-          I'm a front-end web developer and creative thinker.
+          Front-end web developer and creative thinker.
         </p>
       </section>
       {/* <div>

@@ -74,15 +74,6 @@ const projectsArray = [
   // },
 ];
 
-// const Projects = (props) => {
-//   const projectComponents = [];
-
-//   for (let i = 0; i < projectsArray.length; i++) {
-//     projectComponents.push(Project(projectsArray[i]));
-//   }
-//   return projectComponents;
-// };
-
 const Project = () => {
   return (
     <div className='projects'>
