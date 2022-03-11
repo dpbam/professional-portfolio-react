@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-grid-system';
 import '../assets/css/style2.css';
 import { FaGithub } from 'react-icons/fa';
 // import shopshop from '../assets/images/shop-shop-screenshot.png';

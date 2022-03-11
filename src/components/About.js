@@ -1,3 +1,5 @@
+import Testimonials from './Testimonials';
+
 const About = () => {
   return (
     <div>
@@ -28,6 +30,7 @@ const About = () => {
           and <b>music</b> thrown in where possible.
         </p>
       </div> */}
+      <Testimonials></Testimonials>
     </div>
   );
 };

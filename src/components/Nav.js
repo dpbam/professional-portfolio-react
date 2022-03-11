@@ -16,13 +16,6 @@ function Nav(props) {
             {tab}
           </Button>
         ))}
-        {/* <a
-          href='https://drive.google.com/file/d/1wzs4i2v8s5Au36TRRn9Q3oQAoD4b1q49/view?usp=sharing'
-          target='_blank'
-          rel='noreferrer noopener'
-        >
-          RESUME
-        </a> */}
       </div>
     </nav>
   );

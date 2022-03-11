@@ -76,6 +76,62 @@ nav {
   line-height: 1.5rem;
 }
 
+/* Slideshow container  */
+
+.slideshow-container {
+  max-width: 1000px;
+  height: 20rem;
+  position: relative;
+  margin: 15rem auto 5rem auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides p:first-child {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  padding: 0;
+}
+
+.quote-name {
+  float: right;
+  margin-right: 1rem;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 /* projects page */
 
 .projects {
@@ -386,6 +442,10 @@ div.info-and-form {
   .projects {
     display: flex;
     flex-direction: column;
+    margin: 1rem;
+  }
+  .project {
+    margin: 0;
   }
   .project-img {
     height: auto;
@@ -395,6 +455,9 @@ div.info-and-form {
 @media (max-width: 768px) {
   .flex-wrapper {
     background-size: 200% 100%;
+  }
+  .mySlides p:first-child {
+    font-size: 1.5rem;
   }
   .submit-btn {
     float: right;
@@ -445,14 +508,14 @@ div.info-and-form {
   .footer-icons a {
     padding: 0;
   }
+  .quote-name {
+    font-size: 0.75rem;
+  }
 }
 
 @media (max-width: 424px) {
   .projects {
     margin: 0;
-  }
-  .project-text-card {
-    /* width: 93%; */
   }
   .submit-btn {
     /* width: 70%; */
