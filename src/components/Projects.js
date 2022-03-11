@@ -80,7 +80,9 @@ const Project = () => {
         <div key={p.name} className='project'>
           <div className='project-text-card'>
             <div className='project-img-div'>
-              <img className='project-img' src={p.image} alt={p.name}></img>
+              <a href={p.link} target='_blank' rel='noreferrer noopener'>
+                <img className='project-img' src={p.image} alt={p.name}></img>
+              </a>
             </div>
             <div className='website-link'>
               <a
