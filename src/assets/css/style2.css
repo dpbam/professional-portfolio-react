@@ -368,7 +368,8 @@ div.info-and-form {
 
 /* .resume-pages img {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 } */
 
 /* footer */
@@ -438,6 +439,8 @@ div.info-and-form {
   .resume-pages img {
     width: 95%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
   .projects {
     display: flex;
