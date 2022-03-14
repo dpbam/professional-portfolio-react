@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 // import shopshop from '../assets/images/shop-shop-screenshot.png';
 // import drinking from '../assets/images/drinking.png';
 import shakeonit from '../assets/images/shakeonit.png';
-import weather from '../assets/images/weather4.png';
+import weather from '../assets/images/weather.png';
 // import budget from '../assets/images/budget.png';
 import petPlanit from '../assets/images/pet-planit.png';
 import shadowscope from '../assets/images/shadow-scope.png';
