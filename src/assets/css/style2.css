@@ -436,16 +436,55 @@ div.info-and-form {
 }
 
 /* media queries */
+@media (min-width: 2800px) {
+  .projects {
+    display: flex;
+  }
+  .project-img {
+    width: 100%;
+    height: 30rem;
+  }
+}
+
+@media (max-with: 2799px) {
+  .projects {
+    display: grid;
+  }
+  .project-img {
+    width: 100%;
+    height: 40rem;
+  }
+}
+
+@media (max-with: 2400px) {
+  .project-img {
+    width: 90%;
+    height: 35rem;
+  }
+}
 
 @media (max-width: 1600px) {
   .project-img {
+    width: 80%;
     height: 20rem;
+  }
+}
+
+@media (max-with: 1400px) {
+  .project-img {
+    width: 90%;
   }
 }
 
 @media (max-width: 1260px) {
   .projects {
     margin-left: 2rem;
+  }
+}
+@media (max-with: 1100px) {
+  .project-img {
+    width: 100%;
+    height: 15rem;
   }
 }
 
