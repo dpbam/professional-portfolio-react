@@ -3,7 +3,7 @@ import {
   FaGithub,
   FaRegCopyright,
   FaLinkedin,
-  FaStackOverflow,
+  // FaStackOverflow,
 } from 'react-icons/fa';
 
 export const Footer = () => {
@@ -28,7 +28,7 @@ export const Footer = () => {
             <FaLinkedin />
           </a>
         </div>
-        <div>
+        {/* <div>
           <a
             href='https://stackoverflow.com/users/15781081/dpbam'
             target='_blank'
@@ -36,7 +36,7 @@ export const Footer = () => {
           >
             <FaStackOverflow />
           </a>
-        </div>
+        </div> */}
       </div>
       <div className='copyright'>
         <div className='copyright-icon'>

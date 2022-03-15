@@ -11,20 +11,20 @@ import shadowscope from '../assets/images/shadow-scope.png';
 
 const projectsArray = [
   {
-    name: 'PET PLANiT',
-    image: petPlanit,
-    description: `It's their planet; we just live on it. A social media app for pet owners and their furry friends.`,
-    role: 'CSS, Javascript, React, database management',
-    link: 'https://enigmatic-temple-75821.herokuapp.com/',
-    github: 'https://github.com/dpbam/pet-social-network',
-  },
-  {
     name: 'The Shadow Scope',
     image: shadowscope,
     description: `The Shadow Scope website is an interactive project built for the Colorado State University Biochemistry & Molecular Biology Department and involves outreach to surrounding schools to connect kids to the magic of the microscopic world.`,
     role: 'Design, HTML, CSS, Javascript, database management',
     link: 'https://stasevichlab.colostate.edu/shadow-scope',
     github: 'https://github.com/dpbam/shadow-scope',
+  },
+  {
+    name: 'PET PLANiT',
+    image: petPlanit,
+    description: `It's their planet; we just live on it. A social media app for pet owners and their furry friends. Sign up, login, add photos of you and your pet to your profile, contribute to the Pawfeed and make a pet playdate with a new friend.`,
+    role: 'CSS, Javascript, React, database management',
+    link: 'https://enigmatic-temple-75821.herokuapp.com/',
+    github: 'https://github.com/dpbam/pet-social-network',
   },
 
   // {
@@ -57,7 +57,8 @@ const projectsArray = [
   {
     name: 'Shake On It',
     image: shakeonit,
-    description: 'A bartering website for the 21st century.',
+    description:
+      'A bartering website for the 21st century. Sign up, login, make some post, comment on other member posts',
     role: 'Project Lead, CSS, JavaScript, Node.js',
     link: 'https://nameless-taiga-03231.herokuapp.com/',
     github: 'https://github.com/dpbam/shake-on-it',

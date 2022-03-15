@@ -39,7 +39,11 @@ export const Testimonials = () => {
         <div className='mySlides fade'>
           <p>"...a hard worker and goes out of his way to help others..."</p>
 
-          <p className='quote-name'>-- David Briagas</p>
+          <p className='quote-name'>
+            -- David Briagas
+            <br />
+            Junior Full-Stack Developer
+          </p>
         </div>
         <div className='mySlides fade'>
           <p>
@@ -56,7 +60,11 @@ export const Testimonials = () => {
         <div className='mySlides fade'>
           <p>"His great humor made him a pleasure to be around."</p>
 
-          <p className='quote-name'>-- Donald Bull</p>
+          <p className='quote-name'>
+            -- Donald Bull
+            <br />
+            Junior Full-Stack Developer
+          </p>
         </div>
 
         <div className='mySlides fade'>
