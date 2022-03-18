@@ -79,15 +79,30 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>I'd love to hear from you.</h4>
         </div>
-        <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <input className="name-input" type='text' name='user_name' placeholder='Name' />
-          <input className="email-input" type='email' name='user_email' placeholder='Email' />
+        <form className='contact-form' ref={form} onSubmit={sendEmail}>
+          <input
+            className='name-input'
+            type='text'
+            name='user_name'
+            aria-label='name input'
+            placeholder='Name'
+          />
+          <input
+            className='email-input'
+            type='email'
+            name='user_email'
+            aria-label='email input'
+            placeholder='Email'
+          />
           <textarea
             name='message'
+            aria-label='message input'
             placeholder='Your question or comment goes here.'
           />
 
-          <input type='submit' className='btn-sml submit-btn' value='Send' />
+          <button type='submit' className='btn-sml submit-btn' value='Send'>
+            SUBMIT
+          </button>
         </form>
       </div>
     </div>
