@@ -9,7 +9,7 @@ export const Resume = () => {
     <Container>
       <div className='resume-link'>
         <a
-          href='https://docs.google.com/document/d/15QOVJsyavSI0D1zb2tNnkKySsDkZtjuQt3MVJDSSjO8/edit'
+          href='https://drive.google.com/file/d/1wzs4i2v8s5Au36TRRn9Q3oQAoD4b1q49/view?usp=sharing'
           alt='Link to resume PDF'
           target='blank'
           rel='noreferrer noopener'
