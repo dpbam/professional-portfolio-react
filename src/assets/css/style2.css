@@ -321,10 +321,10 @@ textarea {
 }
 
 .submit-btn {
-  /* float: right; */
   width: 12rem;
   margin-top: 15px;
   padding: 7px 35px;
+  margin-left: 0.85rem;
   border-radius: 4px;
   display: inline-block;
   background-color: #4b8cfb;
@@ -546,8 +546,7 @@ div.info-and-form {
     font-size: 1.25rem;
   }
   .submit-btn {
-    float: right;
-    text-align: center;
+    font-size: 1rem;
   }
   .projects {
     margin: 0;
@@ -583,6 +582,8 @@ div.info-and-form {
   }
   .submit-btn {
     width: 30%;
+    font-size: 0.9rem;
+    padding: 0.25rem 1rem;
   }
   .footer {
     justify-content: space-around;
@@ -606,8 +607,7 @@ div.info-and-form {
     margin: 0;
   }
   .submit-btn {
-    /* width: 70%; */
-    float: right;
+    /* float: right; */
   }
   .textarea {
     width: 90%;
@@ -647,7 +647,7 @@ div.info-and-form {
   }
   .copyright h4 {
     font-size: 1rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     padding-left: 0.25rem;
   }
 }
