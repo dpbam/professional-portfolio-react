@@ -1,9 +1,10 @@
 import { useRef } from 'react';
 // import { validateEmail } from '../utils/helpers.js';
-import emailjs, { init } from 'emailjs-com';
+// import emailjs, { init } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 require('dotenv').config();
 
-init('user_3UCMhdJW4KW3vymVAZiU4');
+// init(process.env.REACT_APP_EMAILJS_USERID);
 
 export const Contact = () => {
   // const [errorMessage, setErrorMessage] = useState('');
