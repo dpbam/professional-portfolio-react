@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 // import { validateEmail } from '../utils/helpers.js';
 import emailjs, { init } from 'emailjs-com';
+require('dotenv').config();
 
 init('user_3UCMhdJW4KW3vymVAZiU4');
 
@@ -17,15 +18,26 @@ export const Contact = () => {
         'service_b0to90l',
         'contact_form',
         form.current,
-        'user_3UCMhdJW4KW3vymVAZiU4'
+        process.env.REACT_APP_EMAILJS_USERID
+        // 'user_3UCMhdJW4KW3vymVAZiU4'
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        (response) => {
+          alert('SUCCESS!', response.status, response.text);
         },
         (error) => {
-          console.log(error.text);
+          alert('FAILED...', error);
         }
+        // (result) => {
+        //   console.log(result.text);
+        //   alert('Email sent successfully. Good job!');
+        //   alert(result.text);
+        // },
+        // (error) => {
+        //   console.log(error.text);
+        //   alert('Try sending that message again.');
+        //   alert(error.text);
+        // }
       );
     e.target.reset();
   };
