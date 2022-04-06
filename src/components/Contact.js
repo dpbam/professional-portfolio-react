@@ -16,7 +16,7 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_b0to90l',
+        process.env.REACT_APP_SERVICE_ID,
         'contact_form',
         form.current,
         process.env.REACT_APP_EMAILJS_USERID
@@ -24,21 +24,15 @@ export const Contact = () => {
       )
       .then(
         (response) => {
-          alert('SUCCESS!', response.status, response.text);
+          alert(
+            'SUCCESS! Thank you for your message.',
+            response.status,
+            response.text
+          );
         },
         (error) => {
           alert('FAILED...', error);
         }
-        // (result) => {
-        //   console.log(result.text);
-        //   alert('Email sent successfully. Good job!');
-        //   alert(result.text);
-        // },
-        // (error) => {
-        //   console.log(error.text);
-        //   alert('Try sending that message again.');
-        //   alert(error.text);
-        // }
       );
     e.target.reset();
   };
