@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my professional web development portfolio, built with React. There's a functioning navigation bar that exists on every page and 6 featured projects, as well as a contact page.
+This is my professional web development portfolio, built with React. There's a functioning navigation bar that exists on every page and 4 featured projects, as well as a contact page where you can send me a message.
 
 ## Click [here](https://www.derekphelpsdev.com) for the live app.
 
@@ -16,7 +16,7 @@ This is my professional web development portfolio, built with React. There's a f
 
 ## Usage
 
-- <img width="1323" alt="Screen Shot 2021-10-26 at 1 52 43 PM" src="https://user-images.githubusercontent.com/82355287/138951238-bb0d5a6f-34e5-4ea7-a0c5-7e6080ce16f5.png">
+- ![Screen Shot 2022-04-07 at 10 52 09 AM](https://user-images.githubusercontent.com/82355287/162256215-ddd87c05-1079-40fe-8b96-10d58869bcbe.png)
 
 ## Technologies
 
