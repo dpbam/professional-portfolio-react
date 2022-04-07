@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 // import { validateEmail } from '../utils/helpers.js';
 // import emailjs, { init } from 'emailjs-com';
 import emailjs from 'emailjs-com';
@@ -7,9 +7,9 @@ require('dotenv').config();
 // init(process.env.REACT_APP_EMAILJS_USERID);
 
 export const Contact = () => {
-  // const [errorMessage, setErrorMessage] = useState('');
-
   const form = useRef();
+
+  const [status, setStatus] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -20,15 +20,15 @@ export const Contact = () => {
         'contact_form',
         form.current,
         process.env.REACT_APP_EMAILJS_USERID
-        // 'user_3UCMhdJW4KW3vymVAZiU4'
       )
       .then(
         (response) => {
-          alert(
-            'SUCCESS! Thank you for your message.',
-            response.status,
-            response.text
-          );
+          // alert(
+          //   'SUCCESS! Thank you for your message.',
+          //   response.status,
+          //   response.text
+          // );
+          setStatus('SUCCESS');
         },
         (error) => {
           alert('FAILED...', error);
@@ -37,45 +37,13 @@ export const Contact = () => {
     e.target.reset();
   };
 
-  // const [formState, setFormState] = useState({
-  //   name: '',
-  //   email: '',
-  //   message: '',
-  // });
-  // const { name, email, message } = formState;
-
-  // function handleChange(e) {
-  //   if (e.target.name === 'email') {
-  //     const isValid = validateEmail(e.target.value);
-  //     console.log(isValid);
-  //     //   isValid conditional statement
-  //     if (!isValid) {
-  //       setErrorMessage('Your email is invalid.');
-  //     } else {
-  //       setErrorMessage('');
-  //     }
-  //   } else {
-  //     if (!e.target.value.length) {
-  //       setErrorMessage(`${e.target.name} is required.`);
-  //     } else {
-  //       setErrorMessage('');
-  //     }
-  //   }
-  //   if (!errorMessage) {
-  //     setFormState({ ...formState, [e.target.name]: e.target.value });
-  //   }
-
-  //   if (errorMessage) {
-  //     <div>
-  //       <p className='error-text'>{errorMessage}</p>
-  //     </div>;
-  //   }
-  // }
-
-  // function handleSubmit(e) {
-  //   e.preventDefault();
-  //   console.log(formState);
-  // }
+  useEffect(() => {
+    if (status === 'SUCCESS') {
+      setTimeout(() => {
+        setStatus('');
+      }, 3000);
+    }
+  }, [status]);
 
   return (
     <div className='contact-div'>
@@ -86,6 +54,7 @@ export const Contact = () => {
         <div className='row'>
           <h4 style={{ textAlign: 'center' }}>I'd love to hear from you.</h4>
         </div>
+        {status && renderAlert()}
         <form className='contact-form' ref={form} onSubmit={sendEmail}>
           <input
             className='name-input'
@@ -115,5 +84,11 @@ export const Contact = () => {
     </div>
   );
 };
+
+const renderAlert = () => (
+  <div className='contact-success'>
+    <p>Your message was sent successfully!</p>
+  </div>
+);
 
 export default Contact;

@@ -355,6 +355,23 @@ div.info-and-form {
   background-color: white;
 }
 
+.contact-success {
+  background-color: rgb(71, 155, 113);
+  text-align: center;
+  padding: 1rem 1rem;
+  line-height: normal;
+  width: 30%;
+  margin: auto;
+  border-radius: 4px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.contact-success p {
+  color: white;
+}
+
 /* resume page */
 
 .resume-link {
